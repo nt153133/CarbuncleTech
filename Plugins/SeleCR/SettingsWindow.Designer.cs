@@ -351,6 +351,7 @@
             cmbPictomancerPVE.Name = "cmbPictomancerPVE";
             cmbPictomancerPVE.Size = new System.Drawing.Size(129, 24);
             cmbPictomancerPVE.TabIndex = 59;
+            cmbPictomancerPVE.SelectedIndexChanged += SettingsChanged;
             // 
             // picPictomancerPVE
             // 
@@ -688,6 +689,7 @@
             cmbViperPVE.Name = "cmbViperPVE";
             cmbViperPVE.Size = new System.Drawing.Size(129, 24);
             cmbViperPVE.TabIndex = 55;
+            cmbViperPVE.SelectedIndexChanged += SettingsChanged;
             // 
             // picViperPVE
             // 
@@ -986,6 +988,7 @@
             cmbPictomancerPVP.Name = "cmbPictomancerPVP";
             cmbPictomancerPVP.Size = new System.Drawing.Size(129, 24);
             cmbPictomancerPVP.TabIndex = 59;
+            cmbPictomancerPVP.SelectedIndexChanged += SettingsChanged;
             // 
             // picPictomancerPVP
             // 
@@ -1332,6 +1335,7 @@
             cmbViperPVP.Name = "cmbViperPVP";
             cmbViperPVP.Size = new System.Drawing.Size(129, 24);
             cmbViperPVP.TabIndex = 54;
+            cmbViperPVP.SelectedIndexChanged += SettingsChanged;
             // 
             // picReaperPVP
             // 
