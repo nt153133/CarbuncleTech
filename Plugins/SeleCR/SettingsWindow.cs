@@ -55,7 +55,11 @@ namespace CarbuncleTech.Plugins.SeleCR
             picReaperPVP.ImageLocation = GetImageLocation("Reaper.png");
             picSagePVE.ImageLocation = GetImageLocation("Sage.png");
             picSagePVP.ImageLocation = GetImageLocation("Sage.png");
-            
+            picViperPVE.ImageLocation = GetImageLocation("Viper.png");
+            picViperPVP.ImageLocation = GetImageLocation("Viper.png");
+            picPictomancerPVE.ImageLocation = GetImageLocation("Pictomancer.png");
+            picPictomancerPVP.ImageLocation = GetImageLocation("Pictomancer.png");
+
 
             string[] routines = PopulateRoutines();
             cmbArcanistPVE.Items.AddRange(routines);
@@ -100,6 +104,10 @@ namespace CarbuncleTech.Plugins.SeleCR
             cmbSagePVP.Items.AddRange(routines);
             cmbReaperPVE.Items.AddRange(routines);
             cmbReaperPVP.Items.AddRange(routines);
+            cmbViperPVE.Items.AddRange(routines);
+            cmbViperPVP.Items.AddRange(routines);
+            cmbPictomancerPVE.Items.AddRange(routines);
+            cmbPictomancerPVP.Items.AddRange(routines);
         }
 
         private string GetImageLocation(string fileName)
@@ -145,9 +153,11 @@ namespace CarbuncleTech.Plugins.SeleCR
             cmbWarriorPVE.Text     = Settings.Instance.Pve.WarriorRoutine;
             cmbNonBattlePVE.Text   = Settings.Instance.HandRoutine;
             cmbBlueMagePVE.Text    = Settings.Instance.Pve.BlueMageRoutine;
-            cmbSagePVE.Text = Settings.Instance.Pve.SageRoutine;
-            cmbReaperPVE.Text = Settings.Instance.Pve.ReaperRoutine;
-            
+            cmbSagePVE.Text        = Settings.Instance.Pve.SageRoutine;
+            cmbReaperPVE.Text      = Settings.Instance.Pve.ReaperRoutine;
+            cmbViperPVE.Text       = Settings.Instance.Pve.ViperRoutine;
+            cmbPictomancerPVE.Text = Settings.Instance.Pve.PictomancerRoutine;
+
             chkEnableInPve.Checked = Settings.Instance.AutoSelectPve;
 
         	/* Scenario PVP */
@@ -169,9 +179,12 @@ namespace CarbuncleTech.Plugins.SeleCR
             cmbSummonerPVP.Text    = Settings.Instance.Pvp.SummonerRoutine;
             cmbWhiteMagePVP.Text   = Settings.Instance.Pvp.WhiteMageRoutine;
             cmbWarriorPVP.Text     = Settings.Instance.Pvp.WarriorRoutine;
+            cmbReaperPVP.Text      = Settings.Instance.Pvp.ReaperRoutine;
+            cmbSagePVP.Text        = Settings.Instance.Pvp.SageRoutine;
+            cmbViperPVP.Text       = Settings.Instance.Pvp.ViperRoutine;
+            cmbPictomancerPVP.Text = Settings.Instance.Pvp.PictomancerRoutine;
+
             chkEnableInPvp.Checked = Settings.Instance.AutoSelectPvp;
-            cmbReaperPVP.Text = Settings.Instance.Pvp.ReaperRoutine;
-            cmbSagePVP.Text = Settings.Instance.Pvp.SageRoutine;
         }
 
         private void SettingsChanged(object sender, EventArgs e)
@@ -315,6 +328,20 @@ namespace CarbuncleTech.Plugins.SeleCR
 
             if(sender == cmbReaperPVP)
                 Settings.Instance.Pvp.ReaperRoutine = cmbReaperPVP.Text;
+
+            // Viper
+            if (sender == cmbViperPVE)
+                Settings.Instance.Pve.ViperRoutine = cmbViperPVE.Text;
+
+            if (sender == cmbViperPVP)
+                Settings.Instance.Pvp.ViperRoutine = cmbViperPVP.Text;
+
+            // Pictomancer
+            if (sender == cmbPictomancerPVE)
+                Settings.Instance.Pve.PictomancerRoutine = cmbPictomancerPVE.Text;
+
+            if (sender == cmbPictomancerPVP)
+                Settings.Instance.Pvp.PictomancerRoutine = cmbPictomancerPVP.Text;
 
             // Non battle
             if(sender == cmbNonBattlePVE)

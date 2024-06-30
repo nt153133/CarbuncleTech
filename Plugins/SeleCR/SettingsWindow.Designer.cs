@@ -28,1391 +28,1610 @@
         /// </summary>
         private void InitializeComponent()
         {
-	        this.tcCategories = new System.Windows.Forms.TabControl();
-	        this.tpPVE = new System.Windows.Forms.TabPage();
-	        this.gbLimitedPVE = new System.Windows.Forms.GroupBox();
-	        this.cmbBlueMagePVE = new System.Windows.Forms.ComboBox();
-	        this.picBlueMagePVE = new System.Windows.Forms.PictureBox();
-	        this.chkEnableInPve = new System.Windows.Forms.CheckBox();
-	        this.gbOthersPVE = new System.Windows.Forms.GroupBox();
-	        this.cmbNonBattlePVE = new System.Windows.Forms.ComboBox();
-	        this.picMinerPVE = new System.Windows.Forms.PictureBox();
-	        this.gbMagicalRangedDpsPVE = new System.Windows.Forms.GroupBox();
-	        this.cmbRedMagePVE = new System.Windows.Forms.ComboBox();
-	        this.cmbSummonerPVE = new System.Windows.Forms.ComboBox();
-	        this.cmbArcanistPVE = new System.Windows.Forms.ComboBox();
-	        this.picRedMagePVE = new System.Windows.Forms.PictureBox();
-	        this.picSummonerPVE = new System.Windows.Forms.PictureBox();
-	        this.picArcanistPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbBlackMagePVE = new System.Windows.Forms.ComboBox();
-	        this.picBlackMagePVE = new System.Windows.Forms.PictureBox();
-	        this.gbHealersPVE = new System.Windows.Forms.GroupBox();
-	        this.picSagePVE = new System.Windows.Forms.PictureBox();
-	        this.cmbAstrologianPVE = new System.Windows.Forms.ComboBox();
-	        this.picAstrologianPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbScholarPVE = new System.Windows.Forms.ComboBox();
-	        this.picScholarPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbWhiteMagePVE = new System.Windows.Forms.ComboBox();
-	        this.picWhiteMagePVE = new System.Windows.Forms.PictureBox();
-	        this.gbPhysicalRangedDpsPVE = new System.Windows.Forms.GroupBox();
-	        this.cmbDancerPVE = new System.Windows.Forms.ComboBox();
-	        this.picDancerPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbMachinistPVE = new System.Windows.Forms.ComboBox();
-	        this.picMachinistPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbBardPVE = new System.Windows.Forms.ComboBox();
-	        this.picBardPVE = new System.Windows.Forms.PictureBox();
-	        this.gbMeleeDpsPVE = new System.Windows.Forms.GroupBox();
-	        this.cmbSamuraiPVE = new System.Windows.Forms.ComboBox();
-	        this.cmbNinjaPVE = new System.Windows.Forms.ComboBox();
-	        this.picSamuraiPVE = new System.Windows.Forms.PictureBox();
-	        this.picNinjaPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbDragoonPVE = new System.Windows.Forms.ComboBox();
-	        this.picDragoonPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbMonkPVE = new System.Windows.Forms.ComboBox();
-	        this.picMonkPVE = new System.Windows.Forms.PictureBox();
-	        this.gbTanksPVE = new System.Windows.Forms.GroupBox();
-	        this.cmbGunbreakerPVE = new System.Windows.Forms.ComboBox();
-	        this.picGunbreakerPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbDarkKnightPVE = new System.Windows.Forms.ComboBox();
-	        this.picDarkKnightPVE = new System.Windows.Forms.PictureBox();
-	        this.picWarriorPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbWarriorPVE = new System.Windows.Forms.ComboBox();
-	        this.picPaladinPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbPaladinPVE = new System.Windows.Forms.ComboBox();
-	        this.tpPVP = new System.Windows.Forms.TabPage();
-	        this.chkEnableInPvp = new System.Windows.Forms.CheckBox();
-	        this.gbMagicalRangedDpsPVP = new System.Windows.Forms.GroupBox();
-	        this.cmbRedMagePVP = new System.Windows.Forms.ComboBox();
-	        this.cmbSummonerPVP = new System.Windows.Forms.ComboBox();
-	        this.cmbArcanistPVP = new System.Windows.Forms.ComboBox();
-	        this.picRedMagePVP = new System.Windows.Forms.PictureBox();
-	        this.picSummonerPVP = new System.Windows.Forms.PictureBox();
-	        this.picArcanistPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbBlackMagePVP = new System.Windows.Forms.ComboBox();
-	        this.picBlackMagePVP = new System.Windows.Forms.PictureBox();
-	        this.gbHealersPVP = new System.Windows.Forms.GroupBox();
-	        this.cmbAstrologianPVP = new System.Windows.Forms.ComboBox();
-	        this.picAstrologianPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbScholarPVP = new System.Windows.Forms.ComboBox();
-	        this.picScholarPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbWhiteMagePVP = new System.Windows.Forms.ComboBox();
-	        this.picWhiteMagePVP = new System.Windows.Forms.PictureBox();
-	        this.gbPhysicalRangedDpsPVP = new System.Windows.Forms.GroupBox();
-	        this.cmbDancerPVP = new System.Windows.Forms.ComboBox();
-	        this.picDancerPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbMachinistPVP = new System.Windows.Forms.ComboBox();
-	        this.picMachinistPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbBardPVP = new System.Windows.Forms.ComboBox();
-	        this.picBardPVP = new System.Windows.Forms.PictureBox();
-	        this.gbMeleeDpsPVP = new System.Windows.Forms.GroupBox();
-	        this.cmbSamuraiPVP = new System.Windows.Forms.ComboBox();
-	        this.cmbNinjaPVP = new System.Windows.Forms.ComboBox();
-	        this.picSamuraiPVP = new System.Windows.Forms.PictureBox();
-	        this.picNinjaPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbDragoonPVP = new System.Windows.Forms.ComboBox();
-	        this.picDragoonPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbMonkPVP = new System.Windows.Forms.ComboBox();
-	        this.picMonkPVP = new System.Windows.Forms.PictureBox();
-	        this.gbTanksPVP = new System.Windows.Forms.GroupBox();
-	        this.cmbGunbreakerPVP = new System.Windows.Forms.ComboBox();
-	        this.picGunbreakerPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbDarkKnightPVP = new System.Windows.Forms.ComboBox();
-	        this.picDarkKnightPVP = new System.Windows.Forms.PictureBox();
-	        this.picWarriorPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbWarriorPVP = new System.Windows.Forms.ComboBox();
-	        this.picPaladinPVP = new System.Windows.Forms.PictureBox();
-	        this.cmbPaladinPVP = new System.Windows.Forms.ComboBox();
-	        this.cmbSagePVE = new System.Windows.Forms.ComboBox();
-	        this.picReaperPVE = new System.Windows.Forms.PictureBox();
-	        this.cmbReaperPVE = new System.Windows.Forms.ComboBox();
-	        this.cmbSagePVP = new System.Windows.Forms.ComboBox();
-	        this.picSagePVP = new System.Windows.Forms.PictureBox();
-	        this.cmbReaperPVP = new System.Windows.Forms.ComboBox();
-	        this.picReaperPVP = new System.Windows.Forms.PictureBox();
-	        this.tcCategories.SuspendLayout();
-	        this.tpPVE.SuspendLayout();
-	        this.gbLimitedPVE.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBlueMagePVE)).BeginInit();
-	        this.gbOthersPVE.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMinerPVE)).BeginInit();
-	        this.gbMagicalRangedDpsPVE.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picRedMagePVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSummonerPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picArcanistPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBlackMagePVE)).BeginInit();
-	        this.gbHealersPVE.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSagePVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picAstrologianPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picScholarPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picWhiteMagePVE)).BeginInit();
-	        this.gbPhysicalRangedDpsPVE.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDancerPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMachinistPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBardPVE)).BeginInit();
-	        this.gbMeleeDpsPVE.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSamuraiPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picNinjaPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDragoonPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMonkPVE)).BeginInit();
-	        this.gbTanksPVE.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picGunbreakerPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDarkKnightPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picWarriorPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picPaladinPVE)).BeginInit();
-	        this.tpPVP.SuspendLayout();
-	        this.gbMagicalRangedDpsPVP.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picRedMagePVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSummonerPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picArcanistPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBlackMagePVP)).BeginInit();
-	        this.gbHealersPVP.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picAstrologianPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picScholarPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picWhiteMagePVP)).BeginInit();
-	        this.gbPhysicalRangedDpsPVP.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDancerPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMachinistPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBardPVP)).BeginInit();
-	        this.gbMeleeDpsPVP.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSamuraiPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picNinjaPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDragoonPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMonkPVP)).BeginInit();
-	        this.gbTanksPVP.SuspendLayout();
-	        ((System.ComponentModel.ISupportInitialize) (this.picGunbreakerPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDarkKnightPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picWarriorPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picPaladinPVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picReaperPVE)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSagePVP)).BeginInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picReaperPVP)).BeginInit();
-	        this.SuspendLayout();
-	        // 
-	        // tcCategories
-	        // 
-	        this.tcCategories.Controls.Add(this.tpPVE);
-	        this.tcCategories.Controls.Add(this.tpPVP);
-	        this.tcCategories.Location = new System.Drawing.Point(12, 12);
-	        this.tcCategories.Name = "tcCategories";
-	        this.tcCategories.SelectedIndex = 0;
-	        this.tcCategories.Size = new System.Drawing.Size(488, 581);
-	        this.tcCategories.TabIndex = 1;
-	        // 
-	        // tpPVE
-	        // 
-	        this.tpPVE.BackColor = System.Drawing.Color.Transparent;
-	        this.tpPVE.Controls.Add(this.gbLimitedPVE);
-	        this.tpPVE.Controls.Add(this.chkEnableInPve);
-	        this.tpPVE.Controls.Add(this.gbOthersPVE);
-	        this.tpPVE.Controls.Add(this.gbMagicalRangedDpsPVE);
-	        this.tpPVE.Controls.Add(this.gbHealersPVE);
-	        this.tpPVE.Controls.Add(this.gbPhysicalRangedDpsPVE);
-	        this.tpPVE.Controls.Add(this.gbMeleeDpsPVE);
-	        this.tpPVE.Controls.Add(this.gbTanksPVE);
-	        this.tpPVE.Location = new System.Drawing.Point(4, 22);
-	        this.tpPVE.Name = "tpPVE";
-	        this.tpPVE.Padding = new System.Windows.Forms.Padding(3);
-	        this.tpPVE.Size = new System.Drawing.Size(480, 555);
-	        this.tpPVE.TabIndex = 0;
-	        this.tpPVE.Text = "PVE";
-	        // 
-	        // gbLimitedPVE
-	        // 
-	        this.gbLimitedPVE.Controls.Add(this.cmbBlueMagePVE);
-	        this.gbLimitedPVE.Controls.Add(this.picBlueMagePVE);
-	        this.gbLimitedPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbLimitedPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbLimitedPVE.Location = new System.Drawing.Point(7, 440);
-	        this.gbLimitedPVE.Name = "gbLimitedPVE";
-	        this.gbLimitedPVE.Size = new System.Drawing.Size(231, 59);
-	        this.gbLimitedPVE.TabIndex = 22;
-	        this.gbLimitedPVE.TabStop = false;
-	        this.gbLimitedPVE.Text = "Limited Jobs";
-	        // 
-	        // cmbBlueMagePVE
-	        // 
-	        this.cmbBlueMagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbBlueMagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbBlueMagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbBlueMagePVE.FormattingEnabled = true;
-	        this.cmbBlueMagePVE.Location = new System.Drawing.Point(44, 27);
-	        this.cmbBlueMagePVE.Name = "cmbBlueMagePVE";
-	        this.cmbBlueMagePVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbBlueMagePVE.TabIndex = 19;
-	        this.cmbBlueMagePVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picBlueMagePVE
-	        // 
-	        this.picBlueMagePVE.Location = new System.Drawing.Point(6, 19);
-	        this.picBlueMagePVE.Name = "picBlueMagePVE";
-	        this.picBlueMagePVE.Size = new System.Drawing.Size(32, 32);
-	        this.picBlueMagePVE.TabIndex = 55;
-	        this.picBlueMagePVE.TabStop = false;
-	        // 
-	        // chkEnableInPve
-	        // 
-	        this.chkEnableInPve.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.chkEnableInPve.Location = new System.Drawing.Point(12, 516);
-	        this.chkEnableInPve.Name = "chkEnableInPve";
-	        this.chkEnableInPve.Size = new System.Drawing.Size(218, 24);
-	        this.chkEnableInPve.TabIndex = 21;
-	        this.chkEnableInPve.Text = "Enable in PVE Areas";
-	        this.chkEnableInPve.UseVisualStyleBackColor = true;
-	        this.chkEnableInPve.CheckedChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // gbOthersPVE
-	        // 
-	        this.gbOthersPVE.Controls.Add(this.cmbNonBattlePVE);
-	        this.gbOthersPVE.Controls.Add(this.picMinerPVE);
-	        this.gbOthersPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbOthersPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbOthersPVE.Location = new System.Drawing.Point(6, 376);
-	        this.gbOthersPVE.Name = "gbOthersPVE";
-	        this.gbOthersPVE.Size = new System.Drawing.Size(231, 59);
-	        this.gbOthersPVE.TabIndex = 18;
-	        this.gbOthersPVE.TabStop = false;
-	        this.gbOthersPVE.Text = "Hand and Land";
-	        // 
-	        // cmbNonBattlePVE
-	        // 
-	        this.cmbNonBattlePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbNonBattlePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbNonBattlePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbNonBattlePVE.FormattingEnabled = true;
-	        this.cmbNonBattlePVE.Location = new System.Drawing.Point(44, 27);
-	        this.cmbNonBattlePVE.Name = "cmbNonBattlePVE";
-	        this.cmbNonBattlePVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbNonBattlePVE.TabIndex = 19;
-	        this.cmbNonBattlePVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbNonBattlePVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picMinerPVE
-	        // 
-	        this.picMinerPVE.Location = new System.Drawing.Point(6, 19);
-	        this.picMinerPVE.Name = "picMinerPVE";
-	        this.picMinerPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picMinerPVE.TabIndex = 55;
-	        this.picMinerPVE.TabStop = false;
-	        // 
-	        // gbMagicalRangedDpsPVE
-	        // 
-	        this.gbMagicalRangedDpsPVE.Controls.Add(this.cmbRedMagePVE);
-	        this.gbMagicalRangedDpsPVE.Controls.Add(this.cmbSummonerPVE);
-	        this.gbMagicalRangedDpsPVE.Controls.Add(this.cmbArcanistPVE);
-	        this.gbMagicalRangedDpsPVE.Controls.Add(this.picRedMagePVE);
-	        this.gbMagicalRangedDpsPVE.Controls.Add(this.picSummonerPVE);
-	        this.gbMagicalRangedDpsPVE.Controls.Add(this.picArcanistPVE);
-	        this.gbMagicalRangedDpsPVE.Controls.Add(this.cmbBlackMagePVE);
-	        this.gbMagicalRangedDpsPVE.Controls.Add(this.picBlackMagePVE);
-	        this.gbMagicalRangedDpsPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbMagicalRangedDpsPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbMagicalRangedDpsPVE.Location = new System.Drawing.Point(243, 376);
-	        this.gbMagicalRangedDpsPVE.Name = "gbMagicalRangedDpsPVE";
-	        this.gbMagicalRangedDpsPVE.Size = new System.Drawing.Size(231, 173);
-	        this.gbMagicalRangedDpsPVE.TabIndex = 20;
-	        this.gbMagicalRangedDpsPVE.TabStop = false;
-	        this.gbMagicalRangedDpsPVE.Text = "Magical Ranged DPS (PVE)";
-
-	        // 
-	        // cmbRedMagePVE
-	        // 
-	        this.cmbRedMagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbRedMagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbRedMagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbRedMagePVE.FormattingEnabled = true;
-	        this.cmbRedMagePVE.Location = new System.Drawing.Point(44, 140);
-	        this.cmbRedMagePVE.Name = "cmbRedMagePVE";
-	        this.cmbRedMagePVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbRedMagePVE.TabIndex = 24;
-	        this.cmbRedMagePVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbRedMagePVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // cmbSummonerPVE
-	        // 
-	        this.cmbSummonerPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbSummonerPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbSummonerPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbSummonerPVE.FormattingEnabled = true;
-	        this.cmbSummonerPVE.Location = new System.Drawing.Point(44, 102);
-	        this.cmbSummonerPVE.Name = "cmbSummonerPVE";
-	        this.cmbSummonerPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbSummonerPVE.TabIndex = 23;
-	        this.cmbSummonerPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbSummonerPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // cmbArcanistPVE
-	        // 
-	        this.cmbArcanistPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbArcanistPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbArcanistPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbArcanistPVE.FormattingEnabled = true;
-	        this.cmbArcanistPVE.Location = new System.Drawing.Point(44, 64);
-	        this.cmbArcanistPVE.Name = "cmbArcanistPVE";
-	        this.cmbArcanistPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbArcanistPVE.TabIndex = 22;
-	        this.cmbArcanistPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbArcanistPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picRedMagePVE
-	        // 
-	        this.picRedMagePVE.Location = new System.Drawing.Point(6, 132);
-	        this.picRedMagePVE.Name = "picRedMagePVE";
-	        this.picRedMagePVE.Size = new System.Drawing.Size(32, 32);
-	        this.picRedMagePVE.TabIndex = 58;
-	        this.picRedMagePVE.TabStop = false;
-	        // 
-	        // picSummonerPVE
-	        // 
-	        this.picSummonerPVE.Location = new System.Drawing.Point(6, 94);
-	        this.picSummonerPVE.Name = "picSummonerPVE";
-	        this.picSummonerPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picSummonerPVE.TabIndex = 57;
-	        this.picSummonerPVE.TabStop = false;
-	        // 
-	        // picArcanistPVE
-	        // 
-	        this.picArcanistPVE.Location = new System.Drawing.Point(6, 56);
-	        this.picArcanistPVE.Name = "picArcanistPVE";
-	        this.picArcanistPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picArcanistPVE.TabIndex = 56;
-	        this.picArcanistPVE.TabStop = false;
-	        // 
-	        // cmbBlackMagePVE
-	        // 
-	        this.cmbBlackMagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbBlackMagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbBlackMagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbBlackMagePVE.FormattingEnabled = true;
-	        this.cmbBlackMagePVE.Location = new System.Drawing.Point(44, 26);
-	        this.cmbBlackMagePVE.Name = "cmbBlackMagePVE";
-	        this.cmbBlackMagePVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbBlackMagePVE.TabIndex = 21;
-	        this.cmbBlackMagePVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbBlackMagePVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picBlackMagePVE
-	        // 
-	        this.picBlackMagePVE.Location = new System.Drawing.Point(6, 18);
-	        this.picBlackMagePVE.Name = "picBlackMagePVE";
-	        this.picBlackMagePVE.Size = new System.Drawing.Size(32, 32);
-	        this.picBlackMagePVE.TabIndex = 54;
-	        this.picBlackMagePVE.TabStop = false;
-	        // 
-	        // gbHealersPVE
-	        // 
-	        this.gbHealersPVE.Controls.Add(this.cmbSagePVE);
-	        this.gbHealersPVE.Controls.Add(this.picSagePVE);
-	        this.gbHealersPVE.Controls.Add(this.cmbAstrologianPVE);
-	        this.gbHealersPVE.Controls.Add(this.picAstrologianPVE);
-	        this.gbHealersPVE.Controls.Add(this.cmbScholarPVE);
-	        this.gbHealersPVE.Controls.Add(this.picScholarPVE);
-	        this.gbHealersPVE.Controls.Add(this.cmbWhiteMagePVE);
-	        this.gbHealersPVE.Controls.Add(this.picWhiteMagePVE);
-	        this.gbHealersPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbHealersPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbHealersPVE.Location = new System.Drawing.Point(6, 184);
-	        this.gbHealersPVE.Name = "gbHealersPVE";
-	        this.gbHealersPVE.Size = new System.Drawing.Size(231, 186);
-	        this.gbHealersPVE.TabIndex = 11;
-	        this.gbHealersPVE.TabStop = false;
-	        this.gbHealersPVE.Text = "Healers (PVE)";
-	        // 
-	        // picSagePVE
-	        // 
-	        this.picSagePVE.Location = new System.Drawing.Point(6, 132);
-	        this.picSagePVE.Name = "picSagePVE";
-	        this.picSagePVE.Size = new System.Drawing.Size(32, 32);
-	        this.picSagePVE.TabIndex = 58;
-	        this.picSagePVE.TabStop = false;
-
-	        // 
-	        // cmbAstrologianPVE
-	        // 
-	        this.cmbAstrologianPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbAstrologianPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbAstrologianPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbAstrologianPVE.FormattingEnabled = true;
-	        this.cmbAstrologianPVE.Location = new System.Drawing.Point(44, 102);
-	        this.cmbAstrologianPVE.Name = "cmbAstrologianPVE";
-	        this.cmbAstrologianPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbAstrologianPVE.TabIndex = 14;
-	        this.cmbAstrologianPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbAstrologianPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picAstrologianPVE
-	        // 
-	        this.picAstrologianPVE.Location = new System.Drawing.Point(6, 94);
-	        this.picAstrologianPVE.Name = "picAstrologianPVE";
-	        this.picAstrologianPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picAstrologianPVE.TabIndex = 57;
-	        this.picAstrologianPVE.TabStop = false;
-	        // 
-	        // cmbScholarPVE
-	        // 
-	        this.cmbScholarPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbScholarPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbScholarPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbScholarPVE.FormattingEnabled = true;
-	        this.cmbScholarPVE.Location = new System.Drawing.Point(44, 64);
-	        this.cmbScholarPVE.Name = "cmbScholarPVE";
-	        this.cmbScholarPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbScholarPVE.TabIndex = 13;
-	        this.cmbScholarPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbScholarPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picScholarPVE
-	        // 
-	        this.picScholarPVE.Location = new System.Drawing.Point(6, 56);
-	        this.picScholarPVE.Name = "picScholarPVE";
-	        this.picScholarPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picScholarPVE.TabIndex = 55;
-	        this.picScholarPVE.TabStop = false;
-	        // 
-	        // cmbWhiteMagePVE
-	        // 
-	        this.cmbWhiteMagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbWhiteMagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbWhiteMagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbWhiteMagePVE.FormattingEnabled = true;
-	        this.cmbWhiteMagePVE.Location = new System.Drawing.Point(44, 26);
-	        this.cmbWhiteMagePVE.Name = "cmbWhiteMagePVE";
-	        this.cmbWhiteMagePVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbWhiteMagePVE.TabIndex = 12;
-	        this.cmbWhiteMagePVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbWhiteMagePVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picWhiteMagePVE
-	        // 
-	        this.picWhiteMagePVE.Location = new System.Drawing.Point(6, 18);
-	        this.picWhiteMagePVE.Name = "picWhiteMagePVE";
-	        this.picWhiteMagePVE.Size = new System.Drawing.Size(32, 32);
-	        this.picWhiteMagePVE.TabIndex = 53;
-	        this.picWhiteMagePVE.TabStop = false;
-	        // 
-	        // gbPhysicalRangedDpsPVE
-	        // 
-	        this.gbPhysicalRangedDpsPVE.Controls.Add(this.cmbDancerPVE);
-	        this.gbPhysicalRangedDpsPVE.Controls.Add(this.picDancerPVE);
-	        this.gbPhysicalRangedDpsPVE.Controls.Add(this.cmbMachinistPVE);
-	        this.gbPhysicalRangedDpsPVE.Controls.Add(this.picMachinistPVE);
-	        this.gbPhysicalRangedDpsPVE.Controls.Add(this.cmbBardPVE);
-	        this.gbPhysicalRangedDpsPVE.Controls.Add(this.picBardPVE);
-	        this.gbPhysicalRangedDpsPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbPhysicalRangedDpsPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbPhysicalRangedDpsPVE.Location = new System.Drawing.Point(243, 237);
-	        this.gbPhysicalRangedDpsPVE.Name = "gbPhysicalRangedDpsPVE";
-	        this.gbPhysicalRangedDpsPVE.Size = new System.Drawing.Size(231, 133);
-	        this.gbPhysicalRangedDpsPVE.TabIndex = 15;
-	        this.gbPhysicalRangedDpsPVE.TabStop = false;
-	        this.gbPhysicalRangedDpsPVE.Text = "Physical Ranged DPS (PVE)";
-	        // 
-	        // cmbDancerPVE
-	        // 
-	        this.cmbDancerPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbDancerPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbDancerPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbDancerPVE.FormattingEnabled = true;
-	        this.cmbDancerPVE.Location = new System.Drawing.Point(44, 101);
-	        this.cmbDancerPVE.Name = "cmbDancerPVE";
-	        this.cmbDancerPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbDancerPVE.TabIndex = 55;
-	        this.cmbDancerPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picDancerPVE
-	        // 
-	        this.picDancerPVE.Location = new System.Drawing.Point(6, 94);
-	        this.picDancerPVE.Name = "picDancerPVE";
-	        this.picDancerPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picDancerPVE.TabIndex = 56;
-	        this.picDancerPVE.TabStop = false;
-	        // 
-	        // cmbMachinistPVE
-	        // 
-	        this.cmbMachinistPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbMachinistPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbMachinistPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbMachinistPVE.FormattingEnabled = true;
-	        this.cmbMachinistPVE.Location = new System.Drawing.Point(44, 64);
-	        this.cmbMachinistPVE.Name = "cmbMachinistPVE";
-	        this.cmbMachinistPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbMachinistPVE.TabIndex = 17;
-	        this.cmbMachinistPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbMachinistPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picMachinistPVE
-	        // 
-	        this.picMachinistPVE.Location = new System.Drawing.Point(6, 56);
-	        this.picMachinistPVE.Name = "picMachinistPVE";
-	        this.picMachinistPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picMachinistPVE.TabIndex = 54;
-	        this.picMachinistPVE.TabStop = false;
-	        // 
-	        // cmbBardPVE
-	        // 
-	        this.cmbBardPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbBardPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbBardPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbBardPVE.FormattingEnabled = true;
-	        this.cmbBardPVE.Location = new System.Drawing.Point(44, 26);
-	        this.cmbBardPVE.Name = "cmbBardPVE";
-	        this.cmbBardPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbBardPVE.TabIndex = 16;
-	        this.cmbBardPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbBardPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picBardPVE
-	        // 
-	        this.picBardPVE.Location = new System.Drawing.Point(6, 18);
-	        this.picBardPVE.Name = "picBardPVE";
-	        this.picBardPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picBardPVE.TabIndex = 52;
-	        this.picBardPVE.TabStop = false;
-	        // 
-	        // gbMeleeDpsPVE
-	        // 
-	        this.gbMeleeDpsPVE.Controls.Add(this.cmbReaperPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.picReaperPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.cmbSamuraiPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.cmbNinjaPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.picSamuraiPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.picNinjaPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.cmbDragoonPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.picDragoonPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.cmbMonkPVE);
-	        this.gbMeleeDpsPVE.Controls.Add(this.picMonkPVE);
-	        this.gbMeleeDpsPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbMeleeDpsPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbMeleeDpsPVE.Location = new System.Drawing.Point(243, 6);
-	        this.gbMeleeDpsPVE.Name = "gbMeleeDpsPVE";
-	        this.gbMeleeDpsPVE.Size = new System.Drawing.Size(231, 225);
-	        this.gbMeleeDpsPVE.TabIndex = 6;
-	        this.gbMeleeDpsPVE.TabStop = false;
-	        this.gbMeleeDpsPVE.Text = "Melee DPS (PVE)";
-	        // 
-	        // cmbSamuraiPVE
-	        // 
-	        this.cmbSamuraiPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbSamuraiPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbSamuraiPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbSamuraiPVE.FormattingEnabled = true;
-	        this.cmbSamuraiPVE.Location = new System.Drawing.Point(44, 141);
-	        this.cmbSamuraiPVE.Name = "cmbSamuraiPVE";
-	        this.cmbSamuraiPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbSamuraiPVE.TabIndex = 10;
-	        this.cmbSamuraiPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbSamuraiPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // cmbNinjaPVE
-	        // 
-	        this.cmbNinjaPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbNinjaPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbNinjaPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbNinjaPVE.FormattingEnabled = true;
-	        this.cmbNinjaPVE.Location = new System.Drawing.Point(44, 103);
-	        this.cmbNinjaPVE.Name = "cmbNinjaPVE";
-	        this.cmbNinjaPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbNinjaPVE.TabIndex = 9;
-	        this.cmbNinjaPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbNinjaPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picSamuraiPVE
-	        // 
-	        this.picSamuraiPVE.Location = new System.Drawing.Point(6, 133);
-	        this.picSamuraiPVE.Name = "picSamuraiPVE";
-	        this.picSamuraiPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picSamuraiPVE.TabIndex = 51;
-	        this.picSamuraiPVE.TabStop = false;
-	        // 
-	        // picNinjaPVE
-	        // 
-	        this.picNinjaPVE.Location = new System.Drawing.Point(6, 95);
-	        this.picNinjaPVE.Name = "picNinjaPVE";
-	        this.picNinjaPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picNinjaPVE.TabIndex = 50;
-	        this.picNinjaPVE.TabStop = false;
-	        // 
-	        // cmbDragoonPVE
-	        // 
-	        this.cmbDragoonPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbDragoonPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbDragoonPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbDragoonPVE.FormattingEnabled = true;
-	        this.cmbDragoonPVE.Location = new System.Drawing.Point(44, 65);
-	        this.cmbDragoonPVE.Name = "cmbDragoonPVE";
-	        this.cmbDragoonPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbDragoonPVE.TabIndex = 8;
-	        this.cmbDragoonPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbDragoonPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picDragoonPVE
-	        // 
-	        this.picDragoonPVE.Location = new System.Drawing.Point(6, 57);
-	        this.picDragoonPVE.Name = "picDragoonPVE";
-	        this.picDragoonPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picDragoonPVE.TabIndex = 48;
-	        this.picDragoonPVE.TabStop = false;
-	        // 
-	        // cmbMonkPVE
-	        // 
-	        this.cmbMonkPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbMonkPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbMonkPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbMonkPVE.FormattingEnabled = true;
-	        this.cmbMonkPVE.Location = new System.Drawing.Point(44, 27);
-	        this.cmbMonkPVE.Name = "cmbMonkPVE";
-	        this.cmbMonkPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbMonkPVE.TabIndex = 7;
-	        this.cmbMonkPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbMonkPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picMonkPVE
-	        // 
-	        this.picMonkPVE.Location = new System.Drawing.Point(6, 19);
-	        this.picMonkPVE.Name = "picMonkPVE";
-	        this.picMonkPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picMonkPVE.TabIndex = 46;
-	        this.picMonkPVE.TabStop = false;
-	        // 
-	        // gbTanksPVE
-	        // 
-	        this.gbTanksPVE.Controls.Add(this.cmbGunbreakerPVE);
-	        this.gbTanksPVE.Controls.Add(this.picGunbreakerPVE);
-	        this.gbTanksPVE.Controls.Add(this.cmbDarkKnightPVE);
-	        this.gbTanksPVE.Controls.Add(this.picDarkKnightPVE);
-	        this.gbTanksPVE.Controls.Add(this.picWarriorPVE);
-	        this.gbTanksPVE.Controls.Add(this.cmbWarriorPVE);
-	        this.gbTanksPVE.Controls.Add(this.picPaladinPVE);
-	        this.gbTanksPVE.Controls.Add(this.cmbPaladinPVE);
-	        this.gbTanksPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbTanksPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbTanksPVE.Location = new System.Drawing.Point(6, 6);
-	        this.gbTanksPVE.Name = "gbTanksPVE";
-	        this.gbTanksPVE.Size = new System.Drawing.Size(231, 172);
-	        this.gbTanksPVE.TabIndex = 2;
-	        this.gbTanksPVE.TabStop = false;
-	        this.gbTanksPVE.Text = "Tanks (PVE)";
-	        // 
-	        // cmbGunbreakerPVE
-	        // 
-	        this.cmbGunbreakerPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbGunbreakerPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbGunbreakerPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbGunbreakerPVE.FormattingEnabled = true;
-	        this.cmbGunbreakerPVE.Location = new System.Drawing.Point(44, 141);
-	        this.cmbGunbreakerPVE.Name = "cmbGunbreakerPVE";
-	        this.cmbGunbreakerPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbGunbreakerPVE.TabIndex = 49;
-	        this.cmbGunbreakerPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picGunbreakerPVE
-	        // 
-	        this.picGunbreakerPVE.Location = new System.Drawing.Point(6, 133);
-	        this.picGunbreakerPVE.Name = "picGunbreakerPVE";
-	        this.picGunbreakerPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picGunbreakerPVE.TabIndex = 50;
-	        this.picGunbreakerPVE.TabStop = false;
-	        // 
-	        // cmbDarkKnightPVE
-	        // 
-	        this.cmbDarkKnightPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbDarkKnightPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbDarkKnightPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbDarkKnightPVE.FormattingEnabled = true;
-	        this.cmbDarkKnightPVE.Location = new System.Drawing.Point(44, 102);
-	        this.cmbDarkKnightPVE.Name = "cmbDarkKnightPVE";
-	        this.cmbDarkKnightPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbDarkKnightPVE.TabIndex = 5;
-	        this.cmbDarkKnightPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbDarkKnightPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picDarkKnightPVE
-	        // 
-	        this.picDarkKnightPVE.Location = new System.Drawing.Point(6, 94);
-	        this.picDarkKnightPVE.Name = "picDarkKnightPVE";
-	        this.picDarkKnightPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picDarkKnightPVE.TabIndex = 48;
-	        this.picDarkKnightPVE.TabStop = false;
-	        // 
-	        // picWarriorPVE
-	        // 
-	        this.picWarriorPVE.Location = new System.Drawing.Point(6, 56);
-	        this.picWarriorPVE.Name = "picWarriorPVE";
-	        this.picWarriorPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picWarriorPVE.TabIndex = 47;
-	        this.picWarriorPVE.TabStop = false;
-	        // 
-	        // cmbWarriorPVE
-	        // 
-	        this.cmbWarriorPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbWarriorPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbWarriorPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbWarriorPVE.FormattingEnabled = true;
-	        this.cmbWarriorPVE.Location = new System.Drawing.Point(44, 64);
-	        this.cmbWarriorPVE.Name = "cmbWarriorPVE";
-	        this.cmbWarriorPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbWarriorPVE.TabIndex = 4;
-	        this.cmbWarriorPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbWarriorPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picPaladinPVE
-	        // 
-	        this.picPaladinPVE.Location = new System.Drawing.Point(6, 18);
-	        this.picPaladinPVE.Name = "picPaladinPVE";
-	        this.picPaladinPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picPaladinPVE.TabIndex = 45;
-	        this.picPaladinPVE.TabStop = false;
-	        // 
-	        // cmbPaladinPVE
-	        // 
-	        this.cmbPaladinPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbPaladinPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbPaladinPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbPaladinPVE.FormattingEnabled = true;
-	        this.cmbPaladinPVE.Location = new System.Drawing.Point(44, 26);
-	        this.cmbPaladinPVE.Name = "cmbPaladinPVE";
-	        this.cmbPaladinPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbPaladinPVE.TabIndex = 3;
-	        this.cmbPaladinPVE.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbPaladinPVE.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // tpPVP
-	        // 
-	        this.tpPVP.Controls.Add(this.chkEnableInPvp);
-	        this.tpPVP.Controls.Add(this.gbMagicalRangedDpsPVP);
-	        this.tpPVP.Controls.Add(this.gbHealersPVP);
-	        this.tpPVP.Controls.Add(this.gbPhysicalRangedDpsPVP);
-	        this.tpPVP.Controls.Add(this.gbMeleeDpsPVP);
-	        this.tpPVP.Controls.Add(this.gbTanksPVP);
-	        this.tpPVP.Location = new System.Drawing.Point(4, 22);
-	        this.tpPVP.Name = "tpPVP";
-	        this.tpPVP.Padding = new System.Windows.Forms.Padding(3);
-	        this.tpPVP.Size = new System.Drawing.Size(480, 555);
-	        this.tpPVP.TabIndex = 1;
-	        this.tpPVP.Text = "PVP";
-	        // 
-	        // chkEnableInPvp
-	        // 
-	        this.chkEnableInPvp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.chkEnableInPvp.Location = new System.Drawing.Point(12, 463);
-	        this.chkEnableInPvp.Name = "chkEnableInPvp";
-	        this.chkEnableInPvp.Size = new System.Drawing.Size(218, 24);
-	        this.chkEnableInPvp.TabIndex = 43;
-	        this.chkEnableInPvp.Text = "Enable in PVP Areas";
-	        this.chkEnableInPvp.UseVisualStyleBackColor = true;
-	        this.chkEnableInPvp.CheckedChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // gbMagicalRangedDpsPVP
-	        // 
-	        this.gbMagicalRangedDpsPVP.Controls.Add(this.cmbRedMagePVP);
-	        this.gbMagicalRangedDpsPVP.Controls.Add(this.cmbSummonerPVP);
-	        this.gbMagicalRangedDpsPVP.Controls.Add(this.cmbArcanistPVP);
-	        this.gbMagicalRangedDpsPVP.Controls.Add(this.picRedMagePVP);
-	        this.gbMagicalRangedDpsPVP.Controls.Add(this.picSummonerPVP);
-	        this.gbMagicalRangedDpsPVP.Controls.Add(this.picArcanistPVP);
-	        this.gbMagicalRangedDpsPVP.Controls.Add(this.cmbBlackMagePVP);
-	        this.gbMagicalRangedDpsPVP.Controls.Add(this.picBlackMagePVP);
-	        this.gbMagicalRangedDpsPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbMagicalRangedDpsPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbMagicalRangedDpsPVP.Location = new System.Drawing.Point(243, 379);
-	        this.gbMagicalRangedDpsPVP.Name = "gbMagicalRangedDpsPVP";
-	        this.gbMagicalRangedDpsPVP.Size = new System.Drawing.Size(231, 173);
-	        this.gbMagicalRangedDpsPVP.TabIndex = 42;
-	        this.gbMagicalRangedDpsPVP.TabStop = false;
-	        this.gbMagicalRangedDpsPVP.Text = "Magical Ranged DPS (PVP)";
-	        // 
-	        // cmbRedMagePVP
-	        // 
-	        this.cmbRedMagePVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbRedMagePVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbRedMagePVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbRedMagePVP.FormattingEnabled = true;
-	        this.cmbRedMagePVP.Location = new System.Drawing.Point(44, 140);
-	        this.cmbRedMagePVP.Name = "cmbRedMagePVP";
-	        this.cmbRedMagePVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbRedMagePVP.TabIndex = 46;
-	        this.cmbRedMagePVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbRedMagePVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // cmbSummonerPVP
-	        // 
-	        this.cmbSummonerPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbSummonerPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbSummonerPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbSummonerPVP.FormattingEnabled = true;
-	        this.cmbSummonerPVP.Location = new System.Drawing.Point(44, 102);
-	        this.cmbSummonerPVP.Name = "cmbSummonerPVP";
-	        this.cmbSummonerPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbSummonerPVP.TabIndex = 45;
-	        this.cmbSummonerPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbSummonerPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // cmbArcanistPVP
-	        // 
-	        this.cmbArcanistPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbArcanistPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbArcanistPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbArcanistPVP.FormattingEnabled = true;
-	        this.cmbArcanistPVP.Location = new System.Drawing.Point(44, 64);
-	        this.cmbArcanistPVP.Name = "cmbArcanistPVP";
-	        this.cmbArcanistPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbArcanistPVP.TabIndex = 44;
-	        this.cmbArcanistPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbArcanistPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picRedMagePVP
-	        // 
-	        this.picRedMagePVP.Location = new System.Drawing.Point(6, 132);
-	        this.picRedMagePVP.Name = "picRedMagePVP";
-	        this.picRedMagePVP.Size = new System.Drawing.Size(32, 32);
-	        this.picRedMagePVP.TabIndex = 58;
-	        this.picRedMagePVP.TabStop = false;
-	        // 
-	        // picSummonerPVP
-	        // 
-	        this.picSummonerPVP.Location = new System.Drawing.Point(6, 94);
-	        this.picSummonerPVP.Name = "picSummonerPVP";
-	        this.picSummonerPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picSummonerPVP.TabIndex = 57;
-	        this.picSummonerPVP.TabStop = false;
-	        // 
-	        // picArcanistPVP
-	        // 
-	        this.picArcanistPVP.Location = new System.Drawing.Point(6, 56);
-	        this.picArcanistPVP.Name = "picArcanistPVP";
-	        this.picArcanistPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picArcanistPVP.TabIndex = 56;
-	        this.picArcanistPVP.TabStop = false;
-	        // 
-	        // cmbBlackMagePVP
-	        // 
-	        this.cmbBlackMagePVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbBlackMagePVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbBlackMagePVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbBlackMagePVP.FormattingEnabled = true;
-	        this.cmbBlackMagePVP.Location = new System.Drawing.Point(44, 26);
-	        this.cmbBlackMagePVP.Name = "cmbBlackMagePVP";
-	        this.cmbBlackMagePVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbBlackMagePVP.TabIndex = 43;
-	        this.cmbBlackMagePVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbBlackMagePVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picBlackMagePVP
-	        // 
-	        this.picBlackMagePVP.Location = new System.Drawing.Point(6, 18);
-	        this.picBlackMagePVP.Name = "picBlackMagePVP";
-	        this.picBlackMagePVP.Size = new System.Drawing.Size(32, 32);
-	        this.picBlackMagePVP.TabIndex = 54;
-	        this.picBlackMagePVP.TabStop = false;
-	        // 
-	        // gbHealersPVP
-	        // 
-	        this.gbHealersPVP.Controls.Add(this.picSagePVP);
-	        this.gbHealersPVP.Controls.Add(this.cmbSagePVP);
-	        this.gbHealersPVP.Controls.Add(this.cmbAstrologianPVP);
-	        this.gbHealersPVP.Controls.Add(this.picAstrologianPVP);
-	        this.gbHealersPVP.Controls.Add(this.cmbScholarPVP);
-	        this.gbHealersPVP.Controls.Add(this.picScholarPVP);
-	        this.gbHealersPVP.Controls.Add(this.cmbWhiteMagePVP);
-	        this.gbHealersPVP.Controls.Add(this.picWhiteMagePVP);
-	        this.gbHealersPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbHealersPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbHealersPVP.Location = new System.Drawing.Point(6, 184);
-	        this.gbHealersPVP.Name = "gbHealersPVP";
-	        this.gbHealersPVP.Size = new System.Drawing.Size(231, 171);
-	        this.gbHealersPVP.TabIndex = 34;
-	        this.gbHealersPVP.TabStop = false;
-	        this.gbHealersPVP.Text = "Healers (PVP)";
-	        // 
-	        // cmbAstrologianPVP
-	        // 
-	        this.cmbAstrologianPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbAstrologianPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbAstrologianPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbAstrologianPVP.FormattingEnabled = true;
-	        this.cmbAstrologianPVP.Location = new System.Drawing.Point(44, 102);
-	        this.cmbAstrologianPVP.Name = "cmbAstrologianPVP";
-	        this.cmbAstrologianPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbAstrologianPVP.TabIndex = 38;
-	        this.cmbAstrologianPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbAstrologianPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picAstrologianPVP
-	        // 
-	        this.picAstrologianPVP.Location = new System.Drawing.Point(6, 94);
-	        this.picAstrologianPVP.Name = "picAstrologianPVP";
-	        this.picAstrologianPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picAstrologianPVP.TabIndex = 57;
-	        this.picAstrologianPVP.TabStop = false;
-	        // 
-	        // cmbScholarPVP
-	        // 
-	        this.cmbScholarPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbScholarPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbScholarPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbScholarPVP.FormattingEnabled = true;
-	        this.cmbScholarPVP.Location = new System.Drawing.Point(44, 64);
-	        this.cmbScholarPVP.Name = "cmbScholarPVP";
-	        this.cmbScholarPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbScholarPVP.TabIndex = 36;
-	        this.cmbScholarPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbScholarPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picScholarPVP
-	        // 
-	        this.picScholarPVP.Location = new System.Drawing.Point(6, 56);
-	        this.picScholarPVP.Name = "picScholarPVP";
-	        this.picScholarPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picScholarPVP.TabIndex = 55;
-	        this.picScholarPVP.TabStop = false;
-	        // 
-	        // cmbWhiteMagePVP
-	        // 
-	        this.cmbWhiteMagePVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbWhiteMagePVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbWhiteMagePVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbWhiteMagePVP.FormattingEnabled = true;
-	        this.cmbWhiteMagePVP.Location = new System.Drawing.Point(44, 26);
-	        this.cmbWhiteMagePVP.Name = "cmbWhiteMagePVP";
-	        this.cmbWhiteMagePVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbWhiteMagePVP.TabIndex = 35;
-	        this.cmbWhiteMagePVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbWhiteMagePVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picWhiteMagePVP
-	        // 
-	        this.picWhiteMagePVP.Location = new System.Drawing.Point(6, 18);
-	        this.picWhiteMagePVP.Name = "picWhiteMagePVP";
-	        this.picWhiteMagePVP.Size = new System.Drawing.Size(32, 32);
-	        this.picWhiteMagePVP.TabIndex = 53;
-	        this.picWhiteMagePVP.TabStop = false;
-	        // 
-	        // gbPhysicalRangedDpsPVP
-	        // 
-	        this.gbPhysicalRangedDpsPVP.Controls.Add(this.cmbDancerPVP);
-	        this.gbPhysicalRangedDpsPVP.Controls.Add(this.picDancerPVP);
-	        this.gbPhysicalRangedDpsPVP.Controls.Add(this.cmbMachinistPVP);
-	        this.gbPhysicalRangedDpsPVP.Controls.Add(this.picMachinistPVP);
-	        this.gbPhysicalRangedDpsPVP.Controls.Add(this.cmbBardPVP);
-	        this.gbPhysicalRangedDpsPVP.Controls.Add(this.picBardPVP);
-	        this.gbPhysicalRangedDpsPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbPhysicalRangedDpsPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbPhysicalRangedDpsPVP.Location = new System.Drawing.Point(243, 240);
-	        this.gbPhysicalRangedDpsPVP.Name = "gbPhysicalRangedDpsPVP";
-	        this.gbPhysicalRangedDpsPVP.Size = new System.Drawing.Size(231, 133);
-	        this.gbPhysicalRangedDpsPVP.TabIndex = 39;
-	        this.gbPhysicalRangedDpsPVP.TabStop = false;
-	        this.gbPhysicalRangedDpsPVP.Text = "Physical Ranged DPS (PVP)";
-	        // 
-	        // cmbDancerPVP
-	        // 
-	        this.cmbDancerPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbDancerPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbDancerPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbDancerPVP.FormattingEnabled = true;
-	        this.cmbDancerPVP.Location = new System.Drawing.Point(44, 101);
-	        this.cmbDancerPVP.Name = "cmbDancerPVP";
-	        this.cmbDancerPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbDancerPVP.TabIndex = 55;
-	        this.cmbDancerPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picDancerPVP
-	        // 
-	        this.picDancerPVP.Location = new System.Drawing.Point(6, 94);
-	        this.picDancerPVP.Name = "picDancerPVP";
-	        this.picDancerPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picDancerPVP.TabIndex = 56;
-	        this.picDancerPVP.TabStop = false;
-	        // 
-	        // cmbMachinistPVP
-	        // 
-	        this.cmbMachinistPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbMachinistPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbMachinistPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbMachinistPVP.FormattingEnabled = true;
-	        this.cmbMachinistPVP.Location = new System.Drawing.Point(44, 64);
-	        this.cmbMachinistPVP.Name = "cmbMachinistPVP";
-	        this.cmbMachinistPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbMachinistPVP.TabIndex = 41;
-	        this.cmbMachinistPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbMachinistPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picMachinistPVP
-	        // 
-	        this.picMachinistPVP.Location = new System.Drawing.Point(6, 56);
-	        this.picMachinistPVP.Name = "picMachinistPVP";
-	        this.picMachinistPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picMachinistPVP.TabIndex = 54;
-	        this.picMachinistPVP.TabStop = false;
-	        // 
-	        // cmbBardPVP
-	        // 
-	        this.cmbBardPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbBardPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbBardPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbBardPVP.FormattingEnabled = true;
-	        this.cmbBardPVP.Location = new System.Drawing.Point(44, 26);
-	        this.cmbBardPVP.Name = "cmbBardPVP";
-	        this.cmbBardPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbBardPVP.TabIndex = 40;
-	        this.cmbBardPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbBardPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picBardPVP
-	        // 
-	        this.picBardPVP.Location = new System.Drawing.Point(6, 18);
-	        this.picBardPVP.Name = "picBardPVP";
-	        this.picBardPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picBardPVP.TabIndex = 52;
-	        this.picBardPVP.TabStop = false;
-	        // 
-	        // gbMeleeDpsPVP
-	        // 
-	        this.gbMeleeDpsPVP.Controls.Add(this.picReaperPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.cmbReaperPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.cmbSamuraiPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.cmbNinjaPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.picSamuraiPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.picNinjaPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.cmbDragoonPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.picDragoonPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.cmbMonkPVP);
-	        this.gbMeleeDpsPVP.Controls.Add(this.picMonkPVP);
-	        this.gbMeleeDpsPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbMeleeDpsPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbMeleeDpsPVP.Location = new System.Drawing.Point(243, 6);
-	        this.gbMeleeDpsPVP.Name = "gbMeleeDpsPVP";
-	        this.gbMeleeDpsPVP.Size = new System.Drawing.Size(231, 214);
-	        this.gbMeleeDpsPVP.TabIndex = 29;
-	        this.gbMeleeDpsPVP.TabStop = false;
-	        this.gbMeleeDpsPVP.Text = "Melee DPS (PVP)";
-	        // 
-	        // cmbSamuraiPVP
-	        // 
-	        this.cmbSamuraiPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbSamuraiPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbSamuraiPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbSamuraiPVP.FormattingEnabled = true;
-	        this.cmbSamuraiPVP.Location = new System.Drawing.Point(44, 141);
-	        this.cmbSamuraiPVP.Name = "cmbSamuraiPVP";
-	        this.cmbSamuraiPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbSamuraiPVP.TabIndex = 33;
-	        this.cmbSamuraiPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbSamuraiPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // cmbNinjaPVP
-	        // 
-	        this.cmbNinjaPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbNinjaPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbNinjaPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbNinjaPVP.FormattingEnabled = true;
-	        this.cmbNinjaPVP.Location = new System.Drawing.Point(44, 103);
-	        this.cmbNinjaPVP.Name = "cmbNinjaPVP";
-	        this.cmbNinjaPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbNinjaPVP.TabIndex = 32;
-	        this.cmbNinjaPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbNinjaPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picSamuraiPVP
-	        // 
-	        this.picSamuraiPVP.Location = new System.Drawing.Point(6, 133);
-	        this.picSamuraiPVP.Name = "picSamuraiPVP";
-	        this.picSamuraiPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picSamuraiPVP.TabIndex = 51;
-	        this.picSamuraiPVP.TabStop = false;
-	        // 
-	        // picNinjaPVP
-	        // 
-	        this.picNinjaPVP.Location = new System.Drawing.Point(6, 95);
-	        this.picNinjaPVP.Name = "picNinjaPVP";
-	        this.picNinjaPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picNinjaPVP.TabIndex = 50;
-	        this.picNinjaPVP.TabStop = false;
-	        // 
-	        // cmbDragoonPVP
-	        // 
-	        this.cmbDragoonPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbDragoonPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbDragoonPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbDragoonPVP.FormattingEnabled = true;
-	        this.cmbDragoonPVP.Location = new System.Drawing.Point(44, 65);
-	        this.cmbDragoonPVP.Name = "cmbDragoonPVP";
-	        this.cmbDragoonPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbDragoonPVP.TabIndex = 31;
-	        this.cmbDragoonPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbDragoonPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picDragoonPVP
-	        // 
-	        this.picDragoonPVP.Location = new System.Drawing.Point(6, 57);
-	        this.picDragoonPVP.Name = "picDragoonPVP";
-	        this.picDragoonPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picDragoonPVP.TabIndex = 48;
-	        this.picDragoonPVP.TabStop = false;
-	        // 
-	        // cmbMonkPVP
-	        // 
-	        this.cmbMonkPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbMonkPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbMonkPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbMonkPVP.FormattingEnabled = true;
-	        this.cmbMonkPVP.Location = new System.Drawing.Point(44, 27);
-	        this.cmbMonkPVP.Name = "cmbMonkPVP";
-	        this.cmbMonkPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbMonkPVP.TabIndex = 30;
-	        this.cmbMonkPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbMonkPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picMonkPVP
-	        // 
-	        this.picMonkPVP.Location = new System.Drawing.Point(6, 19);
-	        this.picMonkPVP.Name = "picMonkPVP";
-	        this.picMonkPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picMonkPVP.TabIndex = 46;
-	        this.picMonkPVP.TabStop = false;
-	        // 
-	        // gbTanksPVP
-	        // 
-	        this.gbTanksPVP.Controls.Add(this.cmbGunbreakerPVP);
-	        this.gbTanksPVP.Controls.Add(this.picGunbreakerPVP);
-	        this.gbTanksPVP.Controls.Add(this.cmbDarkKnightPVP);
-	        this.gbTanksPVP.Controls.Add(this.picDarkKnightPVP);
-	        this.gbTanksPVP.Controls.Add(this.picWarriorPVP);
-	        this.gbTanksPVP.Controls.Add(this.cmbWarriorPVP);
-	        this.gbTanksPVP.Controls.Add(this.picPaladinPVP);
-	        this.gbTanksPVP.Controls.Add(this.cmbPaladinPVP);
-	        this.gbTanksPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.gbTanksPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.gbTanksPVP.Location = new System.Drawing.Point(6, 6);
-	        this.gbTanksPVP.Name = "gbTanksPVP";
-	        this.gbTanksPVP.Size = new System.Drawing.Size(231, 172);
-	        this.gbTanksPVP.TabIndex = 25;
-	        this.gbTanksPVP.TabStop = false;
-	        this.gbTanksPVP.Text = "Tanks (PVP)";
-	        // 
-	        // cmbGunbreakerPVP
-	        // 
-	        this.cmbGunbreakerPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbGunbreakerPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbGunbreakerPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbGunbreakerPVP.FormattingEnabled = true;
-	        this.cmbGunbreakerPVP.Location = new System.Drawing.Point(44, 141);
-	        this.cmbGunbreakerPVP.Name = "cmbGunbreakerPVP";
-	        this.cmbGunbreakerPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbGunbreakerPVP.TabIndex = 49;
-	        this.cmbGunbreakerPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picGunbreakerPVP
-	        // 
-	        this.picGunbreakerPVP.Location = new System.Drawing.Point(6, 133);
-	        this.picGunbreakerPVP.Name = "picGunbreakerPVP";
-	        this.picGunbreakerPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picGunbreakerPVP.TabIndex = 50;
-	        this.picGunbreakerPVP.TabStop = false;
-	        // 
-	        // cmbDarkKnightPVP
-	        // 
-	        this.cmbDarkKnightPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbDarkKnightPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbDarkKnightPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbDarkKnightPVP.FormattingEnabled = true;
-	        this.cmbDarkKnightPVP.Location = new System.Drawing.Point(44, 102);
-	        this.cmbDarkKnightPVP.Name = "cmbDarkKnightPVP";
-	        this.cmbDarkKnightPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbDarkKnightPVP.TabIndex = 28;
-	        this.cmbDarkKnightPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbDarkKnightPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picDarkKnightPVP
-	        // 
-	        this.picDarkKnightPVP.Location = new System.Drawing.Point(6, 94);
-	        this.picDarkKnightPVP.Name = "picDarkKnightPVP";
-	        this.picDarkKnightPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picDarkKnightPVP.TabIndex = 48;
-	        this.picDarkKnightPVP.TabStop = false;
-	        // 
-	        // picWarriorPVP
-	        // 
-	        this.picWarriorPVP.Location = new System.Drawing.Point(6, 56);
-	        this.picWarriorPVP.Name = "picWarriorPVP";
-	        this.picWarriorPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picWarriorPVP.TabIndex = 47;
-	        this.picWarriorPVP.TabStop = false;
-	        // 
-	        // cmbWarriorPVP
-	        // 
-	        this.cmbWarriorPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbWarriorPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbWarriorPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbWarriorPVP.FormattingEnabled = true;
-	        this.cmbWarriorPVP.Location = new System.Drawing.Point(44, 64);
-	        this.cmbWarriorPVP.Name = "cmbWarriorPVP";
-	        this.cmbWarriorPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbWarriorPVP.TabIndex = 27;
-	        this.cmbWarriorPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbWarriorPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picPaladinPVP
-	        // 
-	        this.picPaladinPVP.Location = new System.Drawing.Point(6, 18);
-	        this.picPaladinPVP.Name = "picPaladinPVP";
-	        this.picPaladinPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picPaladinPVP.TabIndex = 45;
-	        this.picPaladinPVP.TabStop = false;
-	        // 
-	        // cmbPaladinPVP
-	        // 
-	        this.cmbPaladinPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbPaladinPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbPaladinPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbPaladinPVP.FormattingEnabled = true;
-	        this.cmbPaladinPVP.Location = new System.Drawing.Point(44, 26);
-	        this.cmbPaladinPVP.Name = "cmbPaladinPVP";
-	        this.cmbPaladinPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbPaladinPVP.TabIndex = 26;
-	        this.cmbPaladinPVP.TextUpdate += new System.EventHandler(this.SettingsChanged);
-	        this.cmbPaladinPVP.SelectedValueChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // cmbSagePVE
-	        // 
-	        this.cmbSagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbSagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbSagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbSagePVE.FormattingEnabled = true;
-	        this.cmbSagePVE.Location = new System.Drawing.Point(44, 140);
-	        this.cmbSagePVE.Name = "cmbSagePVE";
-	        this.cmbSagePVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbSagePVE.TabIndex = 59;
-	        this.cmbSagePVE.SelectedIndexChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picReaperPVE
-	        // 
-	        this.picReaperPVE.Location = new System.Drawing.Point(6, 178);
-	        this.picReaperPVE.Name = "picReaperPVE";
-	        this.picReaperPVE.Size = new System.Drawing.Size(32, 32);
-	        this.picReaperPVE.TabIndex = 52;
-	        this.picReaperPVE.TabStop = false;
-	        // 
-	        // cmbReaperPVE
-	        // 
-	        this.cmbReaperPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbReaperPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbReaperPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbReaperPVE.FormattingEnabled = true;
-	        this.cmbReaperPVE.Location = new System.Drawing.Point(44, 186);
-	        this.cmbReaperPVE.Name = "cmbReaperPVE";
-	        this.cmbReaperPVE.Size = new System.Drawing.Size(180, 24);
-	        this.cmbReaperPVE.TabIndex = 53;
-	        this.cmbReaperPVE.SelectedIndexChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // cmbSagePVP
-	        // 
-	        this.cmbSagePVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbSagePVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbSagePVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbSagePVP.FormattingEnabled = true;
-	        this.cmbSagePVP.Location = new System.Drawing.Point(44, 140);
-	        this.cmbSagePVP.Name = "cmbSagePVP";
-	        this.cmbSagePVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbSagePVP.TabIndex = 58;
-	        this.cmbSagePVP.SelectedIndexChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picSagePVP
-	        // 
-	        this.picSagePVP.Location = new System.Drawing.Point(6, 132);
-	        this.picSagePVP.Name = "picSagePVP";
-	        this.picSagePVP.Size = new System.Drawing.Size(32, 32);
-	        this.picSagePVP.TabIndex = 59;
-	        this.picSagePVP.TabStop = false;
-
-	        // 
-	        // cmbReaperPVP
-	        // 
-	        this.cmbReaperPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-	        this.cmbReaperPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-	        this.cmbReaperPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-	        this.cmbReaperPVP.FormattingEnabled = true;
-	        this.cmbReaperPVP.Location = new System.Drawing.Point(44, 179);
-	        this.cmbReaperPVP.Name = "cmbReaperPVP";
-	        this.cmbReaperPVP.Size = new System.Drawing.Size(180, 24);
-	        this.cmbReaperPVP.TabIndex = 52;
-	        this.cmbReaperPVP.SelectedIndexChanged += new System.EventHandler(this.SettingsChanged);
-	        // 
-	        // picReaperPVP
-	        // 
-	        this.picReaperPVP.Location = new System.Drawing.Point(6, 171);
-	        this.picReaperPVP.Name = "picReaperPVP";
-	        this.picReaperPVP.Size = new System.Drawing.Size(32, 32);
-	        this.picReaperPVP.TabIndex = 53;
-	        this.picReaperPVP.TabStop = false;
-	        // 
-	        // SettingsWindow
-	        // 
-	        this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-	        this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-	        this.ClientSize = new System.Drawing.Size(514, 605);
-	        this.Controls.Add(this.tcCategories);
-	        this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-	        this.Name = "SettingsWindow";
-	        this.Text = "SeleCR Settings";
-	        this.Load += new System.EventHandler(this.SettingsWindow_Load);
-	        this.tcCategories.ResumeLayout(false);
-	        this.tpPVE.ResumeLayout(false);
-	        this.gbLimitedPVE.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picBlueMagePVE)).EndInit();
-	        this.gbOthersPVE.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picMinerPVE)).EndInit();
-	        this.gbMagicalRangedDpsPVE.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picRedMagePVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSummonerPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picArcanistPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBlackMagePVE)).EndInit();
-	        this.gbHealersPVE.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picSagePVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picAstrologianPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picScholarPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picWhiteMagePVE)).EndInit();
-	        this.gbPhysicalRangedDpsPVE.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picDancerPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMachinistPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBardPVE)).EndInit();
-	        this.gbMeleeDpsPVE.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picSamuraiPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picNinjaPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDragoonPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMonkPVE)).EndInit();
-	        this.gbTanksPVE.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picGunbreakerPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDarkKnightPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picWarriorPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picPaladinPVE)).EndInit();
-	        this.tpPVP.ResumeLayout(false);
-	        this.gbMagicalRangedDpsPVP.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picRedMagePVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSummonerPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picArcanistPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBlackMagePVP)).EndInit();
-	        this.gbHealersPVP.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picAstrologianPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picScholarPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picWhiteMagePVP)).EndInit();
-	        this.gbPhysicalRangedDpsPVP.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picDancerPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMachinistPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picBardPVP)).EndInit();
-	        this.gbMeleeDpsPVP.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picSamuraiPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picNinjaPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDragoonPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picMonkPVP)).EndInit();
-	        this.gbTanksPVP.ResumeLayout(false);
-	        ((System.ComponentModel.ISupportInitialize) (this.picGunbreakerPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picDarkKnightPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picWarriorPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picPaladinPVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picReaperPVE)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picSagePVP)).EndInit();
-	        ((System.ComponentModel.ISupportInitialize) (this.picReaperPVP)).EndInit();
-	        this.ResumeLayout(false);
+            tcCategories = new System.Windows.Forms.TabControl();
+            tpPVE = new System.Windows.Forms.TabPage();
+            gbLimitedPVE = new System.Windows.Forms.GroupBox();
+            cmbBlueMagePVE = new System.Windows.Forms.ComboBox();
+            picBlueMagePVE = new System.Windows.Forms.PictureBox();
+            chkEnableInPve = new System.Windows.Forms.CheckBox();
+            gbOthersPVE = new System.Windows.Forms.GroupBox();
+            cmbNonBattlePVE = new System.Windows.Forms.ComboBox();
+            picMinerPVE = new System.Windows.Forms.PictureBox();
+            gbMagicalRangedDpsPVE = new System.Windows.Forms.GroupBox();
+            cmbPictomancerPVE = new System.Windows.Forms.ComboBox();
+            picPictomancerPVE = new System.Windows.Forms.PictureBox();
+            cmbRedMagePVE = new System.Windows.Forms.ComboBox();
+            cmbSummonerPVE = new System.Windows.Forms.ComboBox();
+            cmbArcanistPVE = new System.Windows.Forms.ComboBox();
+            picRedMagePVE = new System.Windows.Forms.PictureBox();
+            picSummonerPVE = new System.Windows.Forms.PictureBox();
+            picArcanistPVE = new System.Windows.Forms.PictureBox();
+            cmbBlackMagePVE = new System.Windows.Forms.ComboBox();
+            picBlackMagePVE = new System.Windows.Forms.PictureBox();
+            gbHealersPVE = new System.Windows.Forms.GroupBox();
+            cmbSagePVE = new System.Windows.Forms.ComboBox();
+            picSagePVE = new System.Windows.Forms.PictureBox();
+            cmbAstrologianPVE = new System.Windows.Forms.ComboBox();
+            picAstrologianPVE = new System.Windows.Forms.PictureBox();
+            cmbScholarPVE = new System.Windows.Forms.ComboBox();
+            picScholarPVE = new System.Windows.Forms.PictureBox();
+            cmbWhiteMagePVE = new System.Windows.Forms.ComboBox();
+            picWhiteMagePVE = new System.Windows.Forms.PictureBox();
+            gbPhysicalRangedDpsPVE = new System.Windows.Forms.GroupBox();
+            cmbDancerPVE = new System.Windows.Forms.ComboBox();
+            picDancerPVE = new System.Windows.Forms.PictureBox();
+            cmbMachinistPVE = new System.Windows.Forms.ComboBox();
+            picMachinistPVE = new System.Windows.Forms.PictureBox();
+            cmbBardPVE = new System.Windows.Forms.ComboBox();
+            picBardPVE = new System.Windows.Forms.PictureBox();
+            gbMeleeDpsPVE = new System.Windows.Forms.GroupBox();
+            cmbViperPVE = new System.Windows.Forms.ComboBox();
+            picViperPVE = new System.Windows.Forms.PictureBox();
+            cmbReaperPVE = new System.Windows.Forms.ComboBox();
+            picReaperPVE = new System.Windows.Forms.PictureBox();
+            cmbSamuraiPVE = new System.Windows.Forms.ComboBox();
+            cmbNinjaPVE = new System.Windows.Forms.ComboBox();
+            picSamuraiPVE = new System.Windows.Forms.PictureBox();
+            picNinjaPVE = new System.Windows.Forms.PictureBox();
+            cmbDragoonPVE = new System.Windows.Forms.ComboBox();
+            picDragoonPVE = new System.Windows.Forms.PictureBox();
+            cmbMonkPVE = new System.Windows.Forms.ComboBox();
+            picMonkPVE = new System.Windows.Forms.PictureBox();
+            gbTanksPVE = new System.Windows.Forms.GroupBox();
+            cmbGunbreakerPVE = new System.Windows.Forms.ComboBox();
+            picGunbreakerPVE = new System.Windows.Forms.PictureBox();
+            cmbDarkKnightPVE = new System.Windows.Forms.ComboBox();
+            picDarkKnightPVE = new System.Windows.Forms.PictureBox();
+            picWarriorPVE = new System.Windows.Forms.PictureBox();
+            cmbWarriorPVE = new System.Windows.Forms.ComboBox();
+            picPaladinPVE = new System.Windows.Forms.PictureBox();
+            cmbPaladinPVE = new System.Windows.Forms.ComboBox();
+            tpPVP = new System.Windows.Forms.TabPage();
+            chkEnableInPvp = new System.Windows.Forms.CheckBox();
+            gbMagicalRangedDpsPVP = new System.Windows.Forms.GroupBox();
+            cmbPictomancerPVP = new System.Windows.Forms.ComboBox();
+            picPictomancerPVP = new System.Windows.Forms.PictureBox();
+            cmbRedMagePVP = new System.Windows.Forms.ComboBox();
+            cmbSummonerPVP = new System.Windows.Forms.ComboBox();
+            cmbArcanistPVP = new System.Windows.Forms.ComboBox();
+            picRedMagePVP = new System.Windows.Forms.PictureBox();
+            picSummonerPVP = new System.Windows.Forms.PictureBox();
+            picArcanistPVP = new System.Windows.Forms.PictureBox();
+            cmbBlackMagePVP = new System.Windows.Forms.ComboBox();
+            picBlackMagePVP = new System.Windows.Forms.PictureBox();
+            gbHealersPVP = new System.Windows.Forms.GroupBox();
+            picSagePVP = new System.Windows.Forms.PictureBox();
+            cmbSagePVP = new System.Windows.Forms.ComboBox();
+            cmbAstrologianPVP = new System.Windows.Forms.ComboBox();
+            picAstrologianPVP = new System.Windows.Forms.PictureBox();
+            cmbScholarPVP = new System.Windows.Forms.ComboBox();
+            picScholarPVP = new System.Windows.Forms.PictureBox();
+            cmbWhiteMagePVP = new System.Windows.Forms.ComboBox();
+            picWhiteMagePVP = new System.Windows.Forms.PictureBox();
+            gbPhysicalRangedDpsPVP = new System.Windows.Forms.GroupBox();
+            cmbDancerPVP = new System.Windows.Forms.ComboBox();
+            picDancerPVP = new System.Windows.Forms.PictureBox();
+            cmbMachinistPVP = new System.Windows.Forms.ComboBox();
+            picMachinistPVP = new System.Windows.Forms.PictureBox();
+            cmbBardPVP = new System.Windows.Forms.ComboBox();
+            picBardPVP = new System.Windows.Forms.PictureBox();
+            gbMeleeDpsPVP = new System.Windows.Forms.GroupBox();
+            picViperPVP = new System.Windows.Forms.PictureBox();
+            cmbViperPVP = new System.Windows.Forms.ComboBox();
+            picReaperPVP = new System.Windows.Forms.PictureBox();
+            cmbReaperPVP = new System.Windows.Forms.ComboBox();
+            cmbSamuraiPVP = new System.Windows.Forms.ComboBox();
+            cmbNinjaPVP = new System.Windows.Forms.ComboBox();
+            picSamuraiPVP = new System.Windows.Forms.PictureBox();
+            picNinjaPVP = new System.Windows.Forms.PictureBox();
+            cmbDragoonPVP = new System.Windows.Forms.ComboBox();
+            picDragoonPVP = new System.Windows.Forms.PictureBox();
+            cmbMonkPVP = new System.Windows.Forms.ComboBox();
+            picMonkPVP = new System.Windows.Forms.PictureBox();
+            gbTanksPVP = new System.Windows.Forms.GroupBox();
+            cmbGunbreakerPVP = new System.Windows.Forms.ComboBox();
+            picGunbreakerPVP = new System.Windows.Forms.PictureBox();
+            cmbDarkKnightPVP = new System.Windows.Forms.ComboBox();
+            picDarkKnightPVP = new System.Windows.Forms.PictureBox();
+            picWarriorPVP = new System.Windows.Forms.PictureBox();
+            cmbWarriorPVP = new System.Windows.Forms.ComboBox();
+            picPaladinPVP = new System.Windows.Forms.PictureBox();
+            cmbPaladinPVP = new System.Windows.Forms.ComboBox();
+            tcCategories.SuspendLayout();
+            tpPVE.SuspendLayout();
+            gbLimitedPVE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picBlueMagePVE).BeginInit();
+            gbOthersPVE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picMinerPVE).BeginInit();
+            gbMagicalRangedDpsPVE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picPictomancerPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picRedMagePVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picSummonerPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picArcanistPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picBlackMagePVE).BeginInit();
+            gbHealersPVE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picSagePVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picAstrologianPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picScholarPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picWhiteMagePVE).BeginInit();
+            gbPhysicalRangedDpsPVE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picDancerPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picMachinistPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picBardPVE).BeginInit();
+            gbMeleeDpsPVE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picViperPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picReaperPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picSamuraiPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picNinjaPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picDragoonPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picMonkPVE).BeginInit();
+            gbTanksPVE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picGunbreakerPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picDarkKnightPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picWarriorPVE).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picPaladinPVE).BeginInit();
+            tpPVP.SuspendLayout();
+            gbMagicalRangedDpsPVP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picPictomancerPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picRedMagePVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picSummonerPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picArcanistPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picBlackMagePVP).BeginInit();
+            gbHealersPVP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picSagePVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picAstrologianPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picScholarPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picWhiteMagePVP).BeginInit();
+            gbPhysicalRangedDpsPVP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picDancerPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picMachinistPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picBardPVP).BeginInit();
+            gbMeleeDpsPVP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picViperPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picReaperPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picSamuraiPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picNinjaPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picDragoonPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picMonkPVP).BeginInit();
+            gbTanksPVP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picGunbreakerPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picDarkKnightPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picWarriorPVP).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picPaladinPVP).BeginInit();
+            SuspendLayout();
+            // 
+            // tcCategories
+            // 
+            tcCategories.Controls.Add(tpPVE);
+            tcCategories.Controls.Add(tpPVP);
+            tcCategories.Location = new System.Drawing.Point(14, 14);
+            tcCategories.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tcCategories.Name = "tcCategories";
+            tcCategories.SelectedIndex = 0;
+            tcCategories.Size = new System.Drawing.Size(572, 629);
+            tcCategories.TabIndex = 1;
+            // 
+            // tpPVE
+            // 
+            tpPVE.BackColor = System.Drawing.Color.Transparent;
+            tpPVE.Controls.Add(gbLimitedPVE);
+            tpPVE.Controls.Add(chkEnableInPve);
+            tpPVE.Controls.Add(gbOthersPVE);
+            tpPVE.Controls.Add(gbMagicalRangedDpsPVE);
+            tpPVE.Controls.Add(gbHealersPVE);
+            tpPVE.Controls.Add(gbPhysicalRangedDpsPVE);
+            tpPVE.Controls.Add(gbMeleeDpsPVE);
+            tpPVE.Controls.Add(gbTanksPVE);
+            tpPVE.Location = new System.Drawing.Point(4, 24);
+            tpPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tpPVE.Name = "tpPVE";
+            tpPVE.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tpPVE.Size = new System.Drawing.Size(564, 601);
+            tpPVE.TabIndex = 0;
+            tpPVE.Text = "PVE";
+            // 
+            // gbLimitedPVE
+            // 
+            gbLimitedPVE.Controls.Add(cmbBlueMagePVE);
+            gbLimitedPVE.Controls.Add(picBlueMagePVE);
+            gbLimitedPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbLimitedPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbLimitedPVE.Location = new System.Drawing.Point(7, 522);
+            gbLimitedPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbLimitedPVE.Name = "gbLimitedPVE";
+            gbLimitedPVE.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbLimitedPVE.Size = new System.Drawing.Size(188, 68);
+            gbLimitedPVE.TabIndex = 22;
+            gbLimitedPVE.TabStop = false;
+            gbLimitedPVE.Text = "Limited Jobs";
+            // 
+            // cmbBlueMagePVE
+            // 
+            cmbBlueMagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbBlueMagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbBlueMagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbBlueMagePVE.FormattingEnabled = true;
+            cmbBlueMagePVE.Location = new System.Drawing.Point(51, 30);
+            cmbBlueMagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbBlueMagePVE.Name = "cmbBlueMagePVE";
+            cmbBlueMagePVE.Size = new System.Drawing.Size(129, 24);
+            cmbBlueMagePVE.TabIndex = 19;
+            cmbBlueMagePVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picBlueMagePVE
+            // 
+            picBlueMagePVE.Location = new System.Drawing.Point(7, 21);
+            picBlueMagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picBlueMagePVE.Name = "picBlueMagePVE";
+            picBlueMagePVE.Size = new System.Drawing.Size(37, 37);
+            picBlueMagePVE.TabIndex = 55;
+            picBlueMagePVE.TabStop = false;
+            // 
+            // chkEnableInPve
+            // 
+            chkEnableInPve.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            chkEnableInPve.Location = new System.Drawing.Point(405, 522);
+            chkEnableInPve.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            chkEnableInPve.Name = "chkEnableInPve";
+            chkEnableInPve.Size = new System.Drawing.Size(151, 28);
+            chkEnableInPve.TabIndex = 21;
+            chkEnableInPve.Text = "Enable in PVE Areas";
+            chkEnableInPve.UseVisualStyleBackColor = true;
+            chkEnableInPve.CheckedChanged += SettingsChanged;
+            // 
+            // gbOthersPVE
+            // 
+            gbOthersPVE.Controls.Add(cmbNonBattlePVE);
+            gbOthersPVE.Controls.Add(picMinerPVE);
+            gbOthersPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbOthersPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbOthersPVE.Location = new System.Drawing.Point(203, 522);
+            gbOthersPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbOthersPVE.Name = "gbOthersPVE";
+            gbOthersPVE.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbOthersPVE.Size = new System.Drawing.Size(187, 68);
+            gbOthersPVE.TabIndex = 18;
+            gbOthersPVE.TabStop = false;
+            gbOthersPVE.Text = "Hand and Land";
+            // 
+            // cmbNonBattlePVE
+            // 
+            cmbNonBattlePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbNonBattlePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbNonBattlePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbNonBattlePVE.FormattingEnabled = true;
+            cmbNonBattlePVE.Location = new System.Drawing.Point(52, 30);
+            cmbNonBattlePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbNonBattlePVE.Name = "cmbNonBattlePVE";
+            cmbNonBattlePVE.Size = new System.Drawing.Size(129, 24);
+            cmbNonBattlePVE.TabIndex = 19;
+            cmbNonBattlePVE.TextUpdate += SettingsChanged;
+            cmbNonBattlePVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picMinerPVE
+            // 
+            picMinerPVE.Location = new System.Drawing.Point(8, 21);
+            picMinerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picMinerPVE.Name = "picMinerPVE";
+            picMinerPVE.Size = new System.Drawing.Size(37, 37);
+            picMinerPVE.TabIndex = 55;
+            picMinerPVE.TabStop = false;
+            // 
+            // gbMagicalRangedDpsPVE
+            // 
+            gbMagicalRangedDpsPVE.Controls.Add(cmbPictomancerPVE);
+            gbMagicalRangedDpsPVE.Controls.Add(picPictomancerPVE);
+            gbMagicalRangedDpsPVE.Controls.Add(cmbRedMagePVE);
+            gbMagicalRangedDpsPVE.Controls.Add(cmbSummonerPVE);
+            gbMagicalRangedDpsPVE.Controls.Add(cmbArcanistPVE);
+            gbMagicalRangedDpsPVE.Controls.Add(picRedMagePVE);
+            gbMagicalRangedDpsPVE.Controls.Add(picSummonerPVE);
+            gbMagicalRangedDpsPVE.Controls.Add(picArcanistPVE);
+            gbMagicalRangedDpsPVE.Controls.Add(cmbBlackMagePVE);
+            gbMagicalRangedDpsPVE.Controls.Add(picBlackMagePVE);
+            gbMagicalRangedDpsPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbMagicalRangedDpsPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbMagicalRangedDpsPVE.Location = new System.Drawing.Point(8, 403);
+            gbMagicalRangedDpsPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbMagicalRangedDpsPVE.Name = "gbMagicalRangedDpsPVE";
+            gbMagicalRangedDpsPVE.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbMagicalRangedDpsPVE.Size = new System.Drawing.Size(548, 113);
+            gbMagicalRangedDpsPVE.TabIndex = 20;
+            gbMagicalRangedDpsPVE.TabStop = false;
+            gbMagicalRangedDpsPVE.Text = "Magical Ranged DPS (PVE)";
+            // 
+            // cmbPictomancerPVE
+            // 
+            cmbPictomancerPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbPictomancerPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbPictomancerPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbPictomancerPVE.FormattingEnabled = true;
+            cmbPictomancerPVE.Location = new System.Drawing.Point(231, 74);
+            cmbPictomancerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbPictomancerPVE.Name = "cmbPictomancerPVE";
+            cmbPictomancerPVE.Size = new System.Drawing.Size(129, 24);
+            cmbPictomancerPVE.TabIndex = 59;
+            // 
+            // picPictomancerPVE
+            // 
+            picPictomancerPVE.Location = new System.Drawing.Point(187, 64);
+            picPictomancerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picPictomancerPVE.Name = "picPictomancerPVE";
+            picPictomancerPVE.Size = new System.Drawing.Size(37, 37);
+            picPictomancerPVE.TabIndex = 60;
+            picPictomancerPVE.TabStop = false;
+            // 
+            // cmbRedMagePVE
+            // 
+            cmbRedMagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbRedMagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbRedMagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbRedMagePVE.FormattingEnabled = true;
+            cmbRedMagePVE.Location = new System.Drawing.Point(50, 74);
+            cmbRedMagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbRedMagePVE.Name = "cmbRedMagePVE";
+            cmbRedMagePVE.Size = new System.Drawing.Size(129, 24);
+            cmbRedMagePVE.TabIndex = 24;
+            cmbRedMagePVE.TextUpdate += SettingsChanged;
+            cmbRedMagePVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // cmbSummonerPVE
+            // 
+            cmbSummonerPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbSummonerPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbSummonerPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbSummonerPVE.FormattingEnabled = true;
+            cmbSummonerPVE.Location = new System.Drawing.Point(412, 31);
+            cmbSummonerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbSummonerPVE.Name = "cmbSummonerPVE";
+            cmbSummonerPVE.Size = new System.Drawing.Size(129, 24);
+            cmbSummonerPVE.TabIndex = 23;
+            cmbSummonerPVE.TextUpdate += SettingsChanged;
+            cmbSummonerPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // cmbArcanistPVE
+            // 
+            cmbArcanistPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbArcanistPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbArcanistPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbArcanistPVE.FormattingEnabled = true;
+            cmbArcanistPVE.Location = new System.Drawing.Point(231, 30);
+            cmbArcanistPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbArcanistPVE.Name = "cmbArcanistPVE";
+            cmbArcanistPVE.Size = new System.Drawing.Size(129, 24);
+            cmbArcanistPVE.TabIndex = 22;
+            cmbArcanistPVE.TextUpdate += SettingsChanged;
+            cmbArcanistPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picRedMagePVE
+            // 
+            picRedMagePVE.Location = new System.Drawing.Point(6, 64);
+            picRedMagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picRedMagePVE.Name = "picRedMagePVE";
+            picRedMagePVE.Size = new System.Drawing.Size(37, 37);
+            picRedMagePVE.TabIndex = 58;
+            picRedMagePVE.TabStop = false;
+            // 
+            // picSummonerPVE
+            // 
+            picSummonerPVE.Location = new System.Drawing.Point(368, 21);
+            picSummonerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picSummonerPVE.Name = "picSummonerPVE";
+            picSummonerPVE.Size = new System.Drawing.Size(37, 37);
+            picSummonerPVE.TabIndex = 57;
+            picSummonerPVE.TabStop = false;
+            // 
+            // picArcanistPVE
+            // 
+            picArcanistPVE.Location = new System.Drawing.Point(187, 21);
+            picArcanistPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picArcanistPVE.Name = "picArcanistPVE";
+            picArcanistPVE.Size = new System.Drawing.Size(37, 37);
+            picArcanistPVE.TabIndex = 56;
+            picArcanistPVE.TabStop = false;
+            // 
+            // cmbBlackMagePVE
+            // 
+            cmbBlackMagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbBlackMagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbBlackMagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbBlackMagePVE.FormattingEnabled = true;
+            cmbBlackMagePVE.Location = new System.Drawing.Point(50, 30);
+            cmbBlackMagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbBlackMagePVE.Name = "cmbBlackMagePVE";
+            cmbBlackMagePVE.Size = new System.Drawing.Size(129, 24);
+            cmbBlackMagePVE.TabIndex = 21;
+            cmbBlackMagePVE.TextUpdate += SettingsChanged;
+            cmbBlackMagePVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picBlackMagePVE
+            // 
+            picBlackMagePVE.Location = new System.Drawing.Point(6, 21);
+            picBlackMagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picBlackMagePVE.Name = "picBlackMagePVE";
+            picBlackMagePVE.Size = new System.Drawing.Size(37, 37);
+            picBlackMagePVE.TabIndex = 54;
+            picBlackMagePVE.TabStop = false;
+            // 
+            // gbHealersPVE
+            // 
+            gbHealersPVE.Controls.Add(cmbSagePVE);
+            gbHealersPVE.Controls.Add(picSagePVE);
+            gbHealersPVE.Controls.Add(cmbAstrologianPVE);
+            gbHealersPVE.Controls.Add(picAstrologianPVE);
+            gbHealersPVE.Controls.Add(cmbScholarPVE);
+            gbHealersPVE.Controls.Add(picScholarPVE);
+            gbHealersPVE.Controls.Add(cmbWhiteMagePVE);
+            gbHealersPVE.Controls.Add(picWhiteMagePVE);
+            gbHealersPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbHealersPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbHealersPVE.Location = new System.Drawing.Point(8, 116);
+            gbHealersPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbHealersPVE.Name = "gbHealersPVE";
+            gbHealersPVE.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbHealersPVE.Size = new System.Drawing.Size(548, 109);
+            gbHealersPVE.TabIndex = 11;
+            gbHealersPVE.TabStop = false;
+            gbHealersPVE.Text = "Healers (PVE)";
+            // 
+            // cmbSagePVE
+            // 
+            cmbSagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbSagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbSagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbSagePVE.FormattingEnabled = true;
+            cmbSagePVE.Location = new System.Drawing.Point(50, 71);
+            cmbSagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbSagePVE.Name = "cmbSagePVE";
+            cmbSagePVE.Size = new System.Drawing.Size(129, 24);
+            cmbSagePVE.TabIndex = 59;
+            cmbSagePVE.SelectedIndexChanged += SettingsChanged;
+            // 
+            // picSagePVE
+            // 
+            picSagePVE.Location = new System.Drawing.Point(6, 61);
+            picSagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picSagePVE.Name = "picSagePVE";
+            picSagePVE.Size = new System.Drawing.Size(37, 37);
+            picSagePVE.TabIndex = 58;
+            picSagePVE.TabStop = false;
+            // 
+            // cmbAstrologianPVE
+            // 
+            cmbAstrologianPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbAstrologianPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbAstrologianPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbAstrologianPVE.FormattingEnabled = true;
+            cmbAstrologianPVE.Location = new System.Drawing.Point(412, 31);
+            cmbAstrologianPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbAstrologianPVE.Name = "cmbAstrologianPVE";
+            cmbAstrologianPVE.Size = new System.Drawing.Size(129, 24);
+            cmbAstrologianPVE.TabIndex = 14;
+            cmbAstrologianPVE.TextUpdate += SettingsChanged;
+            cmbAstrologianPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picAstrologianPVE
+            // 
+            picAstrologianPVE.Location = new System.Drawing.Point(368, 21);
+            picAstrologianPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picAstrologianPVE.Name = "picAstrologianPVE";
+            picAstrologianPVE.Size = new System.Drawing.Size(37, 37);
+            picAstrologianPVE.TabIndex = 57;
+            picAstrologianPVE.TabStop = false;
+            // 
+            // cmbScholarPVE
+            // 
+            cmbScholarPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbScholarPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbScholarPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbScholarPVE.FormattingEnabled = true;
+            cmbScholarPVE.Location = new System.Drawing.Point(231, 30);
+            cmbScholarPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbScholarPVE.Name = "cmbScholarPVE";
+            cmbScholarPVE.Size = new System.Drawing.Size(129, 24);
+            cmbScholarPVE.TabIndex = 13;
+            cmbScholarPVE.TextUpdate += SettingsChanged;
+            cmbScholarPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picScholarPVE
+            // 
+            picScholarPVE.Location = new System.Drawing.Point(187, 21);
+            picScholarPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picScholarPVE.Name = "picScholarPVE";
+            picScholarPVE.Size = new System.Drawing.Size(37, 37);
+            picScholarPVE.TabIndex = 55;
+            picScholarPVE.TabStop = false;
+            // 
+            // cmbWhiteMagePVE
+            // 
+            cmbWhiteMagePVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbWhiteMagePVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbWhiteMagePVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbWhiteMagePVE.FormattingEnabled = true;
+            cmbWhiteMagePVE.Location = new System.Drawing.Point(49, 30);
+            cmbWhiteMagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbWhiteMagePVE.Name = "cmbWhiteMagePVE";
+            cmbWhiteMagePVE.Size = new System.Drawing.Size(129, 24);
+            cmbWhiteMagePVE.TabIndex = 12;
+            cmbWhiteMagePVE.TextUpdate += SettingsChanged;
+            cmbWhiteMagePVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picWhiteMagePVE
+            // 
+            picWhiteMagePVE.Location = new System.Drawing.Point(6, 18);
+            picWhiteMagePVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picWhiteMagePVE.Name = "picWhiteMagePVE";
+            picWhiteMagePVE.Size = new System.Drawing.Size(37, 37);
+            picWhiteMagePVE.TabIndex = 53;
+            picWhiteMagePVE.TabStop = false;
+            // 
+            // gbPhysicalRangedDpsPVE
+            // 
+            gbPhysicalRangedDpsPVE.Controls.Add(cmbDancerPVE);
+            gbPhysicalRangedDpsPVE.Controls.Add(picDancerPVE);
+            gbPhysicalRangedDpsPVE.Controls.Add(cmbMachinistPVE);
+            gbPhysicalRangedDpsPVE.Controls.Add(picMachinistPVE);
+            gbPhysicalRangedDpsPVE.Controls.Add(cmbBardPVE);
+            gbPhysicalRangedDpsPVE.Controls.Add(picBardPVE);
+            gbPhysicalRangedDpsPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbPhysicalRangedDpsPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbPhysicalRangedDpsPVE.Location = new System.Drawing.Point(7, 336);
+            gbPhysicalRangedDpsPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbPhysicalRangedDpsPVE.Name = "gbPhysicalRangedDpsPVE";
+            gbPhysicalRangedDpsPVE.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbPhysicalRangedDpsPVE.Size = new System.Drawing.Size(549, 67);
+            gbPhysicalRangedDpsPVE.TabIndex = 15;
+            gbPhysicalRangedDpsPVE.TabStop = false;
+            gbPhysicalRangedDpsPVE.Text = "Physical Ranged DPS (PVE)";
+            // 
+            // cmbDancerPVE
+            // 
+            cmbDancerPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbDancerPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbDancerPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbDancerPVE.FormattingEnabled = true;
+            cmbDancerPVE.Location = new System.Drawing.Point(413, 30);
+            cmbDancerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbDancerPVE.Name = "cmbDancerPVE";
+            cmbDancerPVE.Size = new System.Drawing.Size(129, 24);
+            cmbDancerPVE.TabIndex = 55;
+            cmbDancerPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picDancerPVE
+            // 
+            picDancerPVE.Location = new System.Drawing.Point(369, 21);
+            picDancerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picDancerPVE.Name = "picDancerPVE";
+            picDancerPVE.Size = new System.Drawing.Size(37, 37);
+            picDancerPVE.TabIndex = 56;
+            picDancerPVE.TabStop = false;
+            // 
+            // cmbMachinistPVE
+            // 
+            cmbMachinistPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbMachinistPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbMachinistPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbMachinistPVE.FormattingEnabled = true;
+            cmbMachinistPVE.Location = new System.Drawing.Point(232, 30);
+            cmbMachinistPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbMachinistPVE.Name = "cmbMachinistPVE";
+            cmbMachinistPVE.Size = new System.Drawing.Size(129, 24);
+            cmbMachinistPVE.TabIndex = 17;
+            cmbMachinistPVE.TextUpdate += SettingsChanged;
+            cmbMachinistPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picMachinistPVE
+            // 
+            picMachinistPVE.Location = new System.Drawing.Point(188, 21);
+            picMachinistPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picMachinistPVE.Name = "picMachinistPVE";
+            picMachinistPVE.Size = new System.Drawing.Size(37, 37);
+            picMachinistPVE.TabIndex = 54;
+            picMachinistPVE.TabStop = false;
+            // 
+            // cmbBardPVE
+            // 
+            cmbBardPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbBardPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbBardPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbBardPVE.FormattingEnabled = true;
+            cmbBardPVE.Location = new System.Drawing.Point(51, 30);
+            cmbBardPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbBardPVE.Name = "cmbBardPVE";
+            cmbBardPVE.Size = new System.Drawing.Size(129, 24);
+            cmbBardPVE.TabIndex = 16;
+            cmbBardPVE.TextUpdate += SettingsChanged;
+            cmbBardPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picBardPVE
+            // 
+            picBardPVE.Location = new System.Drawing.Point(7, 21);
+            picBardPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picBardPVE.Name = "picBardPVE";
+            picBardPVE.Size = new System.Drawing.Size(37, 37);
+            picBardPVE.TabIndex = 52;
+            picBardPVE.TabStop = false;
+            // 
+            // gbMeleeDpsPVE
+            // 
+            gbMeleeDpsPVE.Controls.Add(cmbViperPVE);
+            gbMeleeDpsPVE.Controls.Add(picViperPVE);
+            gbMeleeDpsPVE.Controls.Add(cmbReaperPVE);
+            gbMeleeDpsPVE.Controls.Add(picReaperPVE);
+            gbMeleeDpsPVE.Controls.Add(cmbSamuraiPVE);
+            gbMeleeDpsPVE.Controls.Add(cmbNinjaPVE);
+            gbMeleeDpsPVE.Controls.Add(picSamuraiPVE);
+            gbMeleeDpsPVE.Controls.Add(picNinjaPVE);
+            gbMeleeDpsPVE.Controls.Add(cmbDragoonPVE);
+            gbMeleeDpsPVE.Controls.Add(picDragoonPVE);
+            gbMeleeDpsPVE.Controls.Add(cmbMonkPVE);
+            gbMeleeDpsPVE.Controls.Add(picMonkPVE);
+            gbMeleeDpsPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbMeleeDpsPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbMeleeDpsPVE.Location = new System.Drawing.Point(8, 224);
+            gbMeleeDpsPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbMeleeDpsPVE.Name = "gbMeleeDpsPVE";
+            gbMeleeDpsPVE.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbMeleeDpsPVE.Size = new System.Drawing.Size(548, 111);
+            gbMeleeDpsPVE.TabIndex = 6;
+            gbMeleeDpsPVE.TabStop = false;
+            gbMeleeDpsPVE.Text = "Melee DPS (PVE)";
+            // 
+            // cmbViperPVE
+            // 
+            cmbViperPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbViperPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbViperPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbViperPVE.FormattingEnabled = true;
+            cmbViperPVE.Location = new System.Drawing.Point(412, 75);
+            cmbViperPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbViperPVE.Name = "cmbViperPVE";
+            cmbViperPVE.Size = new System.Drawing.Size(129, 24);
+            cmbViperPVE.TabIndex = 55;
+            // 
+            // picViperPVE
+            // 
+            picViperPVE.Location = new System.Drawing.Point(368, 65);
+            picViperPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picViperPVE.Name = "picViperPVE";
+            picViperPVE.Size = new System.Drawing.Size(37, 37);
+            picViperPVE.TabIndex = 54;
+            picViperPVE.TabStop = false;
+            // 
+            // cmbReaperPVE
+            // 
+            cmbReaperPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbReaperPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbReaperPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbReaperPVE.FormattingEnabled = true;
+            cmbReaperPVE.Location = new System.Drawing.Point(231, 75);
+            cmbReaperPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbReaperPVE.Name = "cmbReaperPVE";
+            cmbReaperPVE.Size = new System.Drawing.Size(129, 24);
+            cmbReaperPVE.TabIndex = 53;
+            cmbReaperPVE.SelectedIndexChanged += SettingsChanged;
+            // 
+            // picReaperPVE
+            // 
+            picReaperPVE.Location = new System.Drawing.Point(187, 65);
+            picReaperPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picReaperPVE.Name = "picReaperPVE";
+            picReaperPVE.Size = new System.Drawing.Size(37, 37);
+            picReaperPVE.TabIndex = 52;
+            picReaperPVE.TabStop = false;
+            // 
+            // cmbSamuraiPVE
+            // 
+            cmbSamuraiPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbSamuraiPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbSamuraiPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbSamuraiPVE.FormattingEnabled = true;
+            cmbSamuraiPVE.Location = new System.Drawing.Point(50, 75);
+            cmbSamuraiPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbSamuraiPVE.Name = "cmbSamuraiPVE";
+            cmbSamuraiPVE.Size = new System.Drawing.Size(129, 24);
+            cmbSamuraiPVE.TabIndex = 10;
+            cmbSamuraiPVE.TextUpdate += SettingsChanged;
+            cmbSamuraiPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // cmbNinjaPVE
+            // 
+            cmbNinjaPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbNinjaPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbNinjaPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbNinjaPVE.FormattingEnabled = true;
+            cmbNinjaPVE.Location = new System.Drawing.Point(412, 31);
+            cmbNinjaPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbNinjaPVE.Name = "cmbNinjaPVE";
+            cmbNinjaPVE.Size = new System.Drawing.Size(129, 24);
+            cmbNinjaPVE.TabIndex = 9;
+            cmbNinjaPVE.TextUpdate += SettingsChanged;
+            cmbNinjaPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picSamuraiPVE
+            // 
+            picSamuraiPVE.Location = new System.Drawing.Point(6, 65);
+            picSamuraiPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picSamuraiPVE.Name = "picSamuraiPVE";
+            picSamuraiPVE.Size = new System.Drawing.Size(37, 37);
+            picSamuraiPVE.TabIndex = 51;
+            picSamuraiPVE.TabStop = false;
+            // 
+            // picNinjaPVE
+            // 
+            picNinjaPVE.Location = new System.Drawing.Point(368, 22);
+            picNinjaPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picNinjaPVE.Name = "picNinjaPVE";
+            picNinjaPVE.Size = new System.Drawing.Size(37, 37);
+            picNinjaPVE.TabIndex = 50;
+            picNinjaPVE.TabStop = false;
+            // 
+            // cmbDragoonPVE
+            // 
+            cmbDragoonPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbDragoonPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbDragoonPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbDragoonPVE.FormattingEnabled = true;
+            cmbDragoonPVE.Location = new System.Drawing.Point(231, 31);
+            cmbDragoonPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbDragoonPVE.Name = "cmbDragoonPVE";
+            cmbDragoonPVE.Size = new System.Drawing.Size(129, 24);
+            cmbDragoonPVE.TabIndex = 8;
+            cmbDragoonPVE.TextUpdate += SettingsChanged;
+            cmbDragoonPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picDragoonPVE
+            // 
+            picDragoonPVE.Location = new System.Drawing.Point(187, 22);
+            picDragoonPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picDragoonPVE.Name = "picDragoonPVE";
+            picDragoonPVE.Size = new System.Drawing.Size(37, 37);
+            picDragoonPVE.TabIndex = 48;
+            picDragoonPVE.TabStop = false;
+            // 
+            // cmbMonkPVE
+            // 
+            cmbMonkPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbMonkPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbMonkPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbMonkPVE.FormattingEnabled = true;
+            cmbMonkPVE.Location = new System.Drawing.Point(50, 30);
+            cmbMonkPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbMonkPVE.Name = "cmbMonkPVE";
+            cmbMonkPVE.Size = new System.Drawing.Size(129, 24);
+            cmbMonkPVE.TabIndex = 7;
+            cmbMonkPVE.TextUpdate += SettingsChanged;
+            cmbMonkPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picMonkPVE
+            // 
+            picMonkPVE.Location = new System.Drawing.Point(6, 21);
+            picMonkPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picMonkPVE.Name = "picMonkPVE";
+            picMonkPVE.Size = new System.Drawing.Size(37, 37);
+            picMonkPVE.TabIndex = 46;
+            picMonkPVE.TabStop = false;
+            // 
+            // gbTanksPVE
+            // 
+            gbTanksPVE.Controls.Add(cmbGunbreakerPVE);
+            gbTanksPVE.Controls.Add(picGunbreakerPVE);
+            gbTanksPVE.Controls.Add(cmbDarkKnightPVE);
+            gbTanksPVE.Controls.Add(picDarkKnightPVE);
+            gbTanksPVE.Controls.Add(picWarriorPVE);
+            gbTanksPVE.Controls.Add(cmbWarriorPVE);
+            gbTanksPVE.Controls.Add(picPaladinPVE);
+            gbTanksPVE.Controls.Add(cmbPaladinPVE);
+            gbTanksPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbTanksPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbTanksPVE.Location = new System.Drawing.Point(7, 7);
+            gbTanksPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbTanksPVE.Name = "gbTanksPVE";
+            gbTanksPVE.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbTanksPVE.Size = new System.Drawing.Size(549, 109);
+            gbTanksPVE.TabIndex = 2;
+            gbTanksPVE.TabStop = false;
+            gbTanksPVE.Text = "Tanks (PVE)";
+            // 
+            // cmbGunbreakerPVE
+            // 
+            cmbGunbreakerPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbGunbreakerPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbGunbreakerPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbGunbreakerPVE.FormattingEnabled = true;
+            cmbGunbreakerPVE.Location = new System.Drawing.Point(51, 74);
+            cmbGunbreakerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbGunbreakerPVE.Name = "cmbGunbreakerPVE";
+            cmbGunbreakerPVE.Size = new System.Drawing.Size(129, 24);
+            cmbGunbreakerPVE.TabIndex = 49;
+            cmbGunbreakerPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picGunbreakerPVE
+            // 
+            picGunbreakerPVE.Location = new System.Drawing.Point(7, 64);
+            picGunbreakerPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picGunbreakerPVE.Name = "picGunbreakerPVE";
+            picGunbreakerPVE.Size = new System.Drawing.Size(37, 37);
+            picGunbreakerPVE.TabIndex = 50;
+            picGunbreakerPVE.TabStop = false;
+            // 
+            // cmbDarkKnightPVE
+            // 
+            cmbDarkKnightPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbDarkKnightPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbDarkKnightPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbDarkKnightPVE.FormattingEnabled = true;
+            cmbDarkKnightPVE.Location = new System.Drawing.Point(413, 31);
+            cmbDarkKnightPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbDarkKnightPVE.Name = "cmbDarkKnightPVE";
+            cmbDarkKnightPVE.Size = new System.Drawing.Size(129, 24);
+            cmbDarkKnightPVE.TabIndex = 5;
+            cmbDarkKnightPVE.TextUpdate += SettingsChanged;
+            cmbDarkKnightPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picDarkKnightPVE
+            // 
+            picDarkKnightPVE.Location = new System.Drawing.Point(369, 21);
+            picDarkKnightPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picDarkKnightPVE.Name = "picDarkKnightPVE";
+            picDarkKnightPVE.Size = new System.Drawing.Size(37, 37);
+            picDarkKnightPVE.TabIndex = 48;
+            picDarkKnightPVE.TabStop = false;
+            // 
+            // picWarriorPVE
+            // 
+            picWarriorPVE.Location = new System.Drawing.Point(188, 21);
+            picWarriorPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picWarriorPVE.Name = "picWarriorPVE";
+            picWarriorPVE.Size = new System.Drawing.Size(37, 37);
+            picWarriorPVE.TabIndex = 47;
+            picWarriorPVE.TabStop = false;
+            // 
+            // cmbWarriorPVE
+            // 
+            cmbWarriorPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbWarriorPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbWarriorPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbWarriorPVE.FormattingEnabled = true;
+            cmbWarriorPVE.Location = new System.Drawing.Point(232, 30);
+            cmbWarriorPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbWarriorPVE.Name = "cmbWarriorPVE";
+            cmbWarriorPVE.Size = new System.Drawing.Size(129, 24);
+            cmbWarriorPVE.TabIndex = 4;
+            cmbWarriorPVE.TextUpdate += SettingsChanged;
+            cmbWarriorPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // picPaladinPVE
+            // 
+            picPaladinPVE.Location = new System.Drawing.Point(7, 21);
+            picPaladinPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picPaladinPVE.Name = "picPaladinPVE";
+            picPaladinPVE.Size = new System.Drawing.Size(37, 37);
+            picPaladinPVE.TabIndex = 45;
+            picPaladinPVE.TabStop = false;
+            // 
+            // cmbPaladinPVE
+            // 
+            cmbPaladinPVE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbPaladinPVE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbPaladinPVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbPaladinPVE.FormattingEnabled = true;
+            cmbPaladinPVE.Location = new System.Drawing.Point(51, 30);
+            cmbPaladinPVE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbPaladinPVE.Name = "cmbPaladinPVE";
+            cmbPaladinPVE.Size = new System.Drawing.Size(129, 24);
+            cmbPaladinPVE.TabIndex = 3;
+            cmbPaladinPVE.TextUpdate += SettingsChanged;
+            cmbPaladinPVE.SelectedValueChanged += SettingsChanged;
+            // 
+            // tpPVP
+            // 
+            tpPVP.Controls.Add(chkEnableInPvp);
+            tpPVP.Controls.Add(gbMagicalRangedDpsPVP);
+            tpPVP.Controls.Add(gbHealersPVP);
+            tpPVP.Controls.Add(gbPhysicalRangedDpsPVP);
+            tpPVP.Controls.Add(gbMeleeDpsPVP);
+            tpPVP.Controls.Add(gbTanksPVP);
+            tpPVP.Location = new System.Drawing.Point(4, 24);
+            tpPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tpPVP.Name = "tpPVP";
+            tpPVP.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tpPVP.Size = new System.Drawing.Size(564, 601);
+            tpPVP.TabIndex = 1;
+            tpPVP.Text = "PVP";
+            // 
+            // chkEnableInPvp
+            // 
+            chkEnableInPvp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            chkEnableInPvp.Location = new System.Drawing.Point(405, 522);
+            chkEnableInPvp.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            chkEnableInPvp.Name = "chkEnableInPvp";
+            chkEnableInPvp.Size = new System.Drawing.Size(151, 28);
+            chkEnableInPvp.TabIndex = 43;
+            chkEnableInPvp.Text = "Enable in PVP Areas";
+            chkEnableInPvp.UseVisualStyleBackColor = true;
+            chkEnableInPvp.CheckedChanged += SettingsChanged;
+            // 
+            // gbMagicalRangedDpsPVP
+            // 
+            gbMagicalRangedDpsPVP.Controls.Add(cmbPictomancerPVP);
+            gbMagicalRangedDpsPVP.Controls.Add(picPictomancerPVP);
+            gbMagicalRangedDpsPVP.Controls.Add(cmbRedMagePVP);
+            gbMagicalRangedDpsPVP.Controls.Add(cmbSummonerPVP);
+            gbMagicalRangedDpsPVP.Controls.Add(cmbArcanistPVP);
+            gbMagicalRangedDpsPVP.Controls.Add(picRedMagePVP);
+            gbMagicalRangedDpsPVP.Controls.Add(picSummonerPVP);
+            gbMagicalRangedDpsPVP.Controls.Add(picArcanistPVP);
+            gbMagicalRangedDpsPVP.Controls.Add(cmbBlackMagePVP);
+            gbMagicalRangedDpsPVP.Controls.Add(picBlackMagePVP);
+            gbMagicalRangedDpsPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbMagicalRangedDpsPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbMagicalRangedDpsPVP.Location = new System.Drawing.Point(8, 403);
+            gbMagicalRangedDpsPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbMagicalRangedDpsPVP.Name = "gbMagicalRangedDpsPVP";
+            gbMagicalRangedDpsPVP.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbMagicalRangedDpsPVP.Size = new System.Drawing.Size(548, 113);
+            gbMagicalRangedDpsPVP.TabIndex = 42;
+            gbMagicalRangedDpsPVP.TabStop = false;
+            gbMagicalRangedDpsPVP.Text = "Magical Ranged DPS (PVP)";
+            // 
+            // cmbPictomancerPVP
+            // 
+            cmbPictomancerPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbPictomancerPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbPictomancerPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbPictomancerPVP.FormattingEnabled = true;
+            cmbPictomancerPVP.Location = new System.Drawing.Point(231, 74);
+            cmbPictomancerPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbPictomancerPVP.Name = "cmbPictomancerPVP";
+            cmbPictomancerPVP.Size = new System.Drawing.Size(129, 24);
+            cmbPictomancerPVP.TabIndex = 59;
+            // 
+            // picPictomancerPVP
+            // 
+            picPictomancerPVP.Location = new System.Drawing.Point(187, 64);
+            picPictomancerPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picPictomancerPVP.Name = "picPictomancerPVP";
+            picPictomancerPVP.Size = new System.Drawing.Size(37, 37);
+            picPictomancerPVP.TabIndex = 60;
+            picPictomancerPVP.TabStop = false;
+            // 
+            // cmbRedMagePVP
+            // 
+            cmbRedMagePVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbRedMagePVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbRedMagePVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbRedMagePVP.FormattingEnabled = true;
+            cmbRedMagePVP.Location = new System.Drawing.Point(50, 74);
+            cmbRedMagePVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbRedMagePVP.Name = "cmbRedMagePVP";
+            cmbRedMagePVP.Size = new System.Drawing.Size(129, 24);
+            cmbRedMagePVP.TabIndex = 46;
+            cmbRedMagePVP.TextUpdate += SettingsChanged;
+            cmbRedMagePVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // cmbSummonerPVP
+            // 
+            cmbSummonerPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbSummonerPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbSummonerPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbSummonerPVP.FormattingEnabled = true;
+            cmbSummonerPVP.Location = new System.Drawing.Point(412, 31);
+            cmbSummonerPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbSummonerPVP.Name = "cmbSummonerPVP";
+            cmbSummonerPVP.Size = new System.Drawing.Size(129, 24);
+            cmbSummonerPVP.TabIndex = 45;
+            cmbSummonerPVP.TextUpdate += SettingsChanged;
+            cmbSummonerPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // cmbArcanistPVP
+            // 
+            cmbArcanistPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbArcanistPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbArcanistPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbArcanistPVP.FormattingEnabled = true;
+            cmbArcanistPVP.Location = new System.Drawing.Point(231, 30);
+            cmbArcanistPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbArcanistPVP.Name = "cmbArcanistPVP";
+            cmbArcanistPVP.Size = new System.Drawing.Size(129, 24);
+            cmbArcanistPVP.TabIndex = 44;
+            cmbArcanistPVP.TextUpdate += SettingsChanged;
+            cmbArcanistPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picRedMagePVP
+            // 
+            picRedMagePVP.Location = new System.Drawing.Point(6, 64);
+            picRedMagePVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picRedMagePVP.Name = "picRedMagePVP";
+            picRedMagePVP.Size = new System.Drawing.Size(37, 37);
+            picRedMagePVP.TabIndex = 58;
+            picRedMagePVP.TabStop = false;
+            // 
+            // picSummonerPVP
+            // 
+            picSummonerPVP.Location = new System.Drawing.Point(368, 21);
+            picSummonerPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picSummonerPVP.Name = "picSummonerPVP";
+            picSummonerPVP.Size = new System.Drawing.Size(37, 37);
+            picSummonerPVP.TabIndex = 57;
+            picSummonerPVP.TabStop = false;
+            // 
+            // picArcanistPVP
+            // 
+            picArcanistPVP.Location = new System.Drawing.Point(187, 21);
+            picArcanistPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picArcanistPVP.Name = "picArcanistPVP";
+            picArcanistPVP.Size = new System.Drawing.Size(37, 37);
+            picArcanistPVP.TabIndex = 56;
+            picArcanistPVP.TabStop = false;
+            // 
+            // cmbBlackMagePVP
+            // 
+            cmbBlackMagePVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbBlackMagePVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbBlackMagePVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbBlackMagePVP.FormattingEnabled = true;
+            cmbBlackMagePVP.Location = new System.Drawing.Point(50, 30);
+            cmbBlackMagePVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbBlackMagePVP.Name = "cmbBlackMagePVP";
+            cmbBlackMagePVP.Size = new System.Drawing.Size(129, 24);
+            cmbBlackMagePVP.TabIndex = 43;
+            cmbBlackMagePVP.TextUpdate += SettingsChanged;
+            cmbBlackMagePVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picBlackMagePVP
+            // 
+            picBlackMagePVP.Location = new System.Drawing.Point(6, 21);
+            picBlackMagePVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picBlackMagePVP.Name = "picBlackMagePVP";
+            picBlackMagePVP.Size = new System.Drawing.Size(37, 37);
+            picBlackMagePVP.TabIndex = 54;
+            picBlackMagePVP.TabStop = false;
+            // 
+            // gbHealersPVP
+            // 
+            gbHealersPVP.Controls.Add(picSagePVP);
+            gbHealersPVP.Controls.Add(cmbSagePVP);
+            gbHealersPVP.Controls.Add(cmbAstrologianPVP);
+            gbHealersPVP.Controls.Add(picAstrologianPVP);
+            gbHealersPVP.Controls.Add(cmbScholarPVP);
+            gbHealersPVP.Controls.Add(picScholarPVP);
+            gbHealersPVP.Controls.Add(cmbWhiteMagePVP);
+            gbHealersPVP.Controls.Add(picWhiteMagePVP);
+            gbHealersPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbHealersPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbHealersPVP.Location = new System.Drawing.Point(8, 116);
+            gbHealersPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbHealersPVP.Name = "gbHealersPVP";
+            gbHealersPVP.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbHealersPVP.Size = new System.Drawing.Size(548, 109);
+            gbHealersPVP.TabIndex = 34;
+            gbHealersPVP.TabStop = false;
+            gbHealersPVP.Text = "Healers (PVP)";
+            // 
+            // picSagePVP
+            // 
+            picSagePVP.Location = new System.Drawing.Point(6, 61);
+            picSagePVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picSagePVP.Name = "picSagePVP";
+            picSagePVP.Size = new System.Drawing.Size(37, 37);
+            picSagePVP.TabIndex = 59;
+            picSagePVP.TabStop = false;
+            // 
+            // cmbSagePVP
+            // 
+            cmbSagePVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbSagePVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbSagePVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbSagePVP.FormattingEnabled = true;
+            cmbSagePVP.Location = new System.Drawing.Point(50, 71);
+            cmbSagePVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbSagePVP.Name = "cmbSagePVP";
+            cmbSagePVP.Size = new System.Drawing.Size(129, 24);
+            cmbSagePVP.TabIndex = 58;
+            cmbSagePVP.SelectedIndexChanged += SettingsChanged;
+            // 
+            // cmbAstrologianPVP
+            // 
+            cmbAstrologianPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbAstrologianPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbAstrologianPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbAstrologianPVP.FormattingEnabled = true;
+            cmbAstrologianPVP.Location = new System.Drawing.Point(412, 31);
+            cmbAstrologianPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbAstrologianPVP.Name = "cmbAstrologianPVP";
+            cmbAstrologianPVP.Size = new System.Drawing.Size(129, 24);
+            cmbAstrologianPVP.TabIndex = 38;
+            cmbAstrologianPVP.TextUpdate += SettingsChanged;
+            cmbAstrologianPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picAstrologianPVP
+            // 
+            picAstrologianPVP.Location = new System.Drawing.Point(368, 21);
+            picAstrologianPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picAstrologianPVP.Name = "picAstrologianPVP";
+            picAstrologianPVP.Size = new System.Drawing.Size(37, 37);
+            picAstrologianPVP.TabIndex = 57;
+            picAstrologianPVP.TabStop = false;
+            // 
+            // cmbScholarPVP
+            // 
+            cmbScholarPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbScholarPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbScholarPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbScholarPVP.FormattingEnabled = true;
+            cmbScholarPVP.Location = new System.Drawing.Point(231, 30);
+            cmbScholarPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbScholarPVP.Name = "cmbScholarPVP";
+            cmbScholarPVP.Size = new System.Drawing.Size(129, 24);
+            cmbScholarPVP.TabIndex = 36;
+            cmbScholarPVP.TextUpdate += SettingsChanged;
+            cmbScholarPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picScholarPVP
+            // 
+            picScholarPVP.Location = new System.Drawing.Point(187, 21);
+            picScholarPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picScholarPVP.Name = "picScholarPVP";
+            picScholarPVP.Size = new System.Drawing.Size(37, 37);
+            picScholarPVP.TabIndex = 55;
+            picScholarPVP.TabStop = false;
+            // 
+            // cmbWhiteMagePVP
+            // 
+            cmbWhiteMagePVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbWhiteMagePVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbWhiteMagePVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbWhiteMagePVP.FormattingEnabled = true;
+            cmbWhiteMagePVP.Location = new System.Drawing.Point(49, 30);
+            cmbWhiteMagePVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbWhiteMagePVP.Name = "cmbWhiteMagePVP";
+            cmbWhiteMagePVP.Size = new System.Drawing.Size(129, 24);
+            cmbWhiteMagePVP.TabIndex = 35;
+            cmbWhiteMagePVP.TextUpdate += SettingsChanged;
+            cmbWhiteMagePVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picWhiteMagePVP
+            // 
+            picWhiteMagePVP.Location = new System.Drawing.Point(6, 18);
+            picWhiteMagePVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picWhiteMagePVP.Name = "picWhiteMagePVP";
+            picWhiteMagePVP.Size = new System.Drawing.Size(37, 37);
+            picWhiteMagePVP.TabIndex = 53;
+            picWhiteMagePVP.TabStop = false;
+            // 
+            // gbPhysicalRangedDpsPVP
+            // 
+            gbPhysicalRangedDpsPVP.Controls.Add(cmbDancerPVP);
+            gbPhysicalRangedDpsPVP.Controls.Add(picDancerPVP);
+            gbPhysicalRangedDpsPVP.Controls.Add(cmbMachinistPVP);
+            gbPhysicalRangedDpsPVP.Controls.Add(picMachinistPVP);
+            gbPhysicalRangedDpsPVP.Controls.Add(cmbBardPVP);
+            gbPhysicalRangedDpsPVP.Controls.Add(picBardPVP);
+            gbPhysicalRangedDpsPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbPhysicalRangedDpsPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbPhysicalRangedDpsPVP.Location = new System.Drawing.Point(7, 336);
+            gbPhysicalRangedDpsPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbPhysicalRangedDpsPVP.Name = "gbPhysicalRangedDpsPVP";
+            gbPhysicalRangedDpsPVP.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbPhysicalRangedDpsPVP.Size = new System.Drawing.Size(549, 67);
+            gbPhysicalRangedDpsPVP.TabIndex = 39;
+            gbPhysicalRangedDpsPVP.TabStop = false;
+            gbPhysicalRangedDpsPVP.Text = "Physical Ranged DPS (PVP)";
+            // 
+            // cmbDancerPVP
+            // 
+            cmbDancerPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbDancerPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbDancerPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbDancerPVP.FormattingEnabled = true;
+            cmbDancerPVP.Location = new System.Drawing.Point(413, 30);
+            cmbDancerPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbDancerPVP.Name = "cmbDancerPVP";
+            cmbDancerPVP.Size = new System.Drawing.Size(129, 24);
+            cmbDancerPVP.TabIndex = 55;
+            cmbDancerPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picDancerPVP
+            // 
+            picDancerPVP.Location = new System.Drawing.Point(369, 21);
+            picDancerPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picDancerPVP.Name = "picDancerPVP";
+            picDancerPVP.Size = new System.Drawing.Size(37, 37);
+            picDancerPVP.TabIndex = 56;
+            picDancerPVP.TabStop = false;
+            // 
+            // cmbMachinistPVP
+            // 
+            cmbMachinistPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbMachinistPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbMachinistPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbMachinistPVP.FormattingEnabled = true;
+            cmbMachinistPVP.Location = new System.Drawing.Point(232, 30);
+            cmbMachinistPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbMachinistPVP.Name = "cmbMachinistPVP";
+            cmbMachinistPVP.Size = new System.Drawing.Size(129, 24);
+            cmbMachinistPVP.TabIndex = 41;
+            cmbMachinistPVP.TextUpdate += SettingsChanged;
+            cmbMachinistPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picMachinistPVP
+            // 
+            picMachinistPVP.Location = new System.Drawing.Point(188, 21);
+            picMachinistPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picMachinistPVP.Name = "picMachinistPVP";
+            picMachinistPVP.Size = new System.Drawing.Size(37, 37);
+            picMachinistPVP.TabIndex = 54;
+            picMachinistPVP.TabStop = false;
+            // 
+            // cmbBardPVP
+            // 
+            cmbBardPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbBardPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbBardPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbBardPVP.FormattingEnabled = true;
+            cmbBardPVP.Location = new System.Drawing.Point(51, 30);
+            cmbBardPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbBardPVP.Name = "cmbBardPVP";
+            cmbBardPVP.Size = new System.Drawing.Size(129, 24);
+            cmbBardPVP.TabIndex = 40;
+            cmbBardPVP.TextUpdate += SettingsChanged;
+            cmbBardPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picBardPVP
+            // 
+            picBardPVP.Location = new System.Drawing.Point(7, 21);
+            picBardPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picBardPVP.Name = "picBardPVP";
+            picBardPVP.Size = new System.Drawing.Size(37, 37);
+            picBardPVP.TabIndex = 52;
+            picBardPVP.TabStop = false;
+            // 
+            // gbMeleeDpsPVP
+            // 
+            gbMeleeDpsPVP.Controls.Add(picViperPVP);
+            gbMeleeDpsPVP.Controls.Add(cmbViperPVP);
+            gbMeleeDpsPVP.Controls.Add(picReaperPVP);
+            gbMeleeDpsPVP.Controls.Add(cmbReaperPVP);
+            gbMeleeDpsPVP.Controls.Add(cmbSamuraiPVP);
+            gbMeleeDpsPVP.Controls.Add(cmbNinjaPVP);
+            gbMeleeDpsPVP.Controls.Add(picSamuraiPVP);
+            gbMeleeDpsPVP.Controls.Add(picNinjaPVP);
+            gbMeleeDpsPVP.Controls.Add(cmbDragoonPVP);
+            gbMeleeDpsPVP.Controls.Add(picDragoonPVP);
+            gbMeleeDpsPVP.Controls.Add(cmbMonkPVP);
+            gbMeleeDpsPVP.Controls.Add(picMonkPVP);
+            gbMeleeDpsPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbMeleeDpsPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbMeleeDpsPVP.Location = new System.Drawing.Point(8, 224);
+            gbMeleeDpsPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbMeleeDpsPVP.Name = "gbMeleeDpsPVP";
+            gbMeleeDpsPVP.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbMeleeDpsPVP.Size = new System.Drawing.Size(548, 111);
+            gbMeleeDpsPVP.TabIndex = 29;
+            gbMeleeDpsPVP.TabStop = false;
+            gbMeleeDpsPVP.Text = "Melee DPS (PVP)";
+            // 
+            // picViperPVP
+            // 
+            picViperPVP.Location = new System.Drawing.Point(368, 65);
+            picViperPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picViperPVP.Name = "picViperPVP";
+            picViperPVP.Size = new System.Drawing.Size(37, 37);
+            picViperPVP.TabIndex = 55;
+            picViperPVP.TabStop = false;
+            // 
+            // cmbViperPVP
+            // 
+            cmbViperPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbViperPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbViperPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbViperPVP.FormattingEnabled = true;
+            cmbViperPVP.Location = new System.Drawing.Point(412, 75);
+            cmbViperPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbViperPVP.Name = "cmbViperPVP";
+            cmbViperPVP.Size = new System.Drawing.Size(129, 24);
+            cmbViperPVP.TabIndex = 54;
+            // 
+            // picReaperPVP
+            // 
+            picReaperPVP.Location = new System.Drawing.Point(187, 65);
+            picReaperPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picReaperPVP.Name = "picReaperPVP";
+            picReaperPVP.Size = new System.Drawing.Size(37, 37);
+            picReaperPVP.TabIndex = 53;
+            picReaperPVP.TabStop = false;
+            // 
+            // cmbReaperPVP
+            // 
+            cmbReaperPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbReaperPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbReaperPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbReaperPVP.FormattingEnabled = true;
+            cmbReaperPVP.Location = new System.Drawing.Point(231, 75);
+            cmbReaperPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbReaperPVP.Name = "cmbReaperPVP";
+            cmbReaperPVP.Size = new System.Drawing.Size(129, 24);
+            cmbReaperPVP.TabIndex = 52;
+            cmbReaperPVP.SelectedIndexChanged += SettingsChanged;
+            // 
+            // cmbSamuraiPVP
+            // 
+            cmbSamuraiPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbSamuraiPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbSamuraiPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbSamuraiPVP.FormattingEnabled = true;
+            cmbSamuraiPVP.Location = new System.Drawing.Point(50, 75);
+            cmbSamuraiPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbSamuraiPVP.Name = "cmbSamuraiPVP";
+            cmbSamuraiPVP.Size = new System.Drawing.Size(129, 24);
+            cmbSamuraiPVP.TabIndex = 33;
+            cmbSamuraiPVP.TextUpdate += SettingsChanged;
+            cmbSamuraiPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // cmbNinjaPVP
+            // 
+            cmbNinjaPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbNinjaPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbNinjaPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbNinjaPVP.FormattingEnabled = true;
+            cmbNinjaPVP.Location = new System.Drawing.Point(412, 31);
+            cmbNinjaPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbNinjaPVP.Name = "cmbNinjaPVP";
+            cmbNinjaPVP.Size = new System.Drawing.Size(129, 24);
+            cmbNinjaPVP.TabIndex = 32;
+            cmbNinjaPVP.TextUpdate += SettingsChanged;
+            cmbNinjaPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picSamuraiPVP
+            // 
+            picSamuraiPVP.Location = new System.Drawing.Point(6, 65);
+            picSamuraiPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picSamuraiPVP.Name = "picSamuraiPVP";
+            picSamuraiPVP.Size = new System.Drawing.Size(37, 37);
+            picSamuraiPVP.TabIndex = 51;
+            picSamuraiPVP.TabStop = false;
+            // 
+            // picNinjaPVP
+            // 
+            picNinjaPVP.Location = new System.Drawing.Point(368, 22);
+            picNinjaPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picNinjaPVP.Name = "picNinjaPVP";
+            picNinjaPVP.Size = new System.Drawing.Size(37, 37);
+            picNinjaPVP.TabIndex = 50;
+            picNinjaPVP.TabStop = false;
+            // 
+            // cmbDragoonPVP
+            // 
+            cmbDragoonPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbDragoonPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbDragoonPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbDragoonPVP.FormattingEnabled = true;
+            cmbDragoonPVP.Location = new System.Drawing.Point(231, 31);
+            cmbDragoonPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbDragoonPVP.Name = "cmbDragoonPVP";
+            cmbDragoonPVP.Size = new System.Drawing.Size(129, 24);
+            cmbDragoonPVP.TabIndex = 31;
+            cmbDragoonPVP.TextUpdate += SettingsChanged;
+            cmbDragoonPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picDragoonPVP
+            // 
+            picDragoonPVP.Location = new System.Drawing.Point(187, 22);
+            picDragoonPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picDragoonPVP.Name = "picDragoonPVP";
+            picDragoonPVP.Size = new System.Drawing.Size(37, 37);
+            picDragoonPVP.TabIndex = 48;
+            picDragoonPVP.TabStop = false;
+            // 
+            // cmbMonkPVP
+            // 
+            cmbMonkPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbMonkPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbMonkPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbMonkPVP.FormattingEnabled = true;
+            cmbMonkPVP.Location = new System.Drawing.Point(50, 30);
+            cmbMonkPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbMonkPVP.Name = "cmbMonkPVP";
+            cmbMonkPVP.Size = new System.Drawing.Size(129, 24);
+            cmbMonkPVP.TabIndex = 30;
+            cmbMonkPVP.TextUpdate += SettingsChanged;
+            cmbMonkPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picMonkPVP
+            // 
+            picMonkPVP.Location = new System.Drawing.Point(6, 21);
+            picMonkPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picMonkPVP.Name = "picMonkPVP";
+            picMonkPVP.Size = new System.Drawing.Size(37, 37);
+            picMonkPVP.TabIndex = 46;
+            picMonkPVP.TabStop = false;
+            // 
+            // gbTanksPVP
+            // 
+            gbTanksPVP.Controls.Add(cmbGunbreakerPVP);
+            gbTanksPVP.Controls.Add(picGunbreakerPVP);
+            gbTanksPVP.Controls.Add(cmbDarkKnightPVP);
+            gbTanksPVP.Controls.Add(picDarkKnightPVP);
+            gbTanksPVP.Controls.Add(picWarriorPVP);
+            gbTanksPVP.Controls.Add(cmbWarriorPVP);
+            gbTanksPVP.Controls.Add(picPaladinPVP);
+            gbTanksPVP.Controls.Add(cmbPaladinPVP);
+            gbTanksPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            gbTanksPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            gbTanksPVP.Location = new System.Drawing.Point(7, 7);
+            gbTanksPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbTanksPVP.Name = "gbTanksPVP";
+            gbTanksPVP.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            gbTanksPVP.Size = new System.Drawing.Size(549, 109);
+            gbTanksPVP.TabIndex = 25;
+            gbTanksPVP.TabStop = false;
+            gbTanksPVP.Text = "Tanks (PVP)";
+            // 
+            // cmbGunbreakerPVP
+            // 
+            cmbGunbreakerPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbGunbreakerPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbGunbreakerPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbGunbreakerPVP.FormattingEnabled = true;
+            cmbGunbreakerPVP.Location = new System.Drawing.Point(51, 74);
+            cmbGunbreakerPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbGunbreakerPVP.Name = "cmbGunbreakerPVP";
+            cmbGunbreakerPVP.Size = new System.Drawing.Size(129, 24);
+            cmbGunbreakerPVP.TabIndex = 49;
+            cmbGunbreakerPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picGunbreakerPVP
+            // 
+            picGunbreakerPVP.Location = new System.Drawing.Point(7, 64);
+            picGunbreakerPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picGunbreakerPVP.Name = "picGunbreakerPVP";
+            picGunbreakerPVP.Size = new System.Drawing.Size(37, 37);
+            picGunbreakerPVP.TabIndex = 50;
+            picGunbreakerPVP.TabStop = false;
+            // 
+            // cmbDarkKnightPVP
+            // 
+            cmbDarkKnightPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbDarkKnightPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbDarkKnightPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbDarkKnightPVP.FormattingEnabled = true;
+            cmbDarkKnightPVP.Location = new System.Drawing.Point(413, 31);
+            cmbDarkKnightPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbDarkKnightPVP.Name = "cmbDarkKnightPVP";
+            cmbDarkKnightPVP.Size = new System.Drawing.Size(129, 24);
+            cmbDarkKnightPVP.TabIndex = 28;
+            cmbDarkKnightPVP.TextUpdate += SettingsChanged;
+            cmbDarkKnightPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picDarkKnightPVP
+            // 
+            picDarkKnightPVP.Location = new System.Drawing.Point(369, 21);
+            picDarkKnightPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picDarkKnightPVP.Name = "picDarkKnightPVP";
+            picDarkKnightPVP.Size = new System.Drawing.Size(37, 37);
+            picDarkKnightPVP.TabIndex = 48;
+            picDarkKnightPVP.TabStop = false;
+            // 
+            // picWarriorPVP
+            // 
+            picWarriorPVP.Location = new System.Drawing.Point(188, 21);
+            picWarriorPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picWarriorPVP.Name = "picWarriorPVP";
+            picWarriorPVP.Size = new System.Drawing.Size(37, 37);
+            picWarriorPVP.TabIndex = 47;
+            picWarriorPVP.TabStop = false;
+            // 
+            // cmbWarriorPVP
+            // 
+            cmbWarriorPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbWarriorPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbWarriorPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbWarriorPVP.FormattingEnabled = true;
+            cmbWarriorPVP.Location = new System.Drawing.Point(232, 30);
+            cmbWarriorPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbWarriorPVP.Name = "cmbWarriorPVP";
+            cmbWarriorPVP.Size = new System.Drawing.Size(129, 24);
+            cmbWarriorPVP.TabIndex = 27;
+            cmbWarriorPVP.TextUpdate += SettingsChanged;
+            cmbWarriorPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // picPaladinPVP
+            // 
+            picPaladinPVP.Location = new System.Drawing.Point(7, 21);
+            picPaladinPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            picPaladinPVP.Name = "picPaladinPVP";
+            picPaladinPVP.Size = new System.Drawing.Size(37, 37);
+            picPaladinPVP.TabIndex = 45;
+            picPaladinPVP.TabStop = false;
+            // 
+            // cmbPaladinPVP
+            // 
+            cmbPaladinPVP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbPaladinPVP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            cmbPaladinPVP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            cmbPaladinPVP.FormattingEnabled = true;
+            cmbPaladinPVP.Location = new System.Drawing.Point(51, 30);
+            cmbPaladinPVP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            cmbPaladinPVP.Name = "cmbPaladinPVP";
+            cmbPaladinPVP.Size = new System.Drawing.Size(129, 24);
+            cmbPaladinPVP.TabIndex = 26;
+            cmbPaladinPVP.TextUpdate += SettingsChanged;
+            cmbPaladinPVP.SelectedValueChanged += SettingsChanged;
+            // 
+            // SettingsWindow
+            // 
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(602, 657);
+            Controls.Add(tcCategories);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Name = "SettingsWindow";
+            Text = "SeleCR Settings";
+            Load += SettingsWindow_Load;
+            tcCategories.ResumeLayout(false);
+            tpPVE.ResumeLayout(false);
+            gbLimitedPVE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picBlueMagePVE).EndInit();
+            gbOthersPVE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picMinerPVE).EndInit();
+            gbMagicalRangedDpsPVE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picPictomancerPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picRedMagePVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picSummonerPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picArcanistPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picBlackMagePVE).EndInit();
+            gbHealersPVE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picSagePVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picAstrologianPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picScholarPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picWhiteMagePVE).EndInit();
+            gbPhysicalRangedDpsPVE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picDancerPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picMachinistPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picBardPVE).EndInit();
+            gbMeleeDpsPVE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picViperPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picReaperPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picSamuraiPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picNinjaPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picDragoonPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picMonkPVE).EndInit();
+            gbTanksPVE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picGunbreakerPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picDarkKnightPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picWarriorPVE).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picPaladinPVE).EndInit();
+            tpPVP.ResumeLayout(false);
+            gbMagicalRangedDpsPVP.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picPictomancerPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picRedMagePVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picSummonerPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picArcanistPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picBlackMagePVP).EndInit();
+            gbHealersPVP.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picSagePVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picAstrologianPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picScholarPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picWhiteMagePVP).EndInit();
+            gbPhysicalRangedDpsPVP.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picDancerPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picMachinistPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picBardPVP).EndInit();
+            gbMeleeDpsPVP.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picViperPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picReaperPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picSamuraiPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picNinjaPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picDragoonPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picMonkPVP).EndInit();
+            gbTanksPVP.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picGunbreakerPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picDarkKnightPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picWarriorPVP).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picPaladinPVP).EndInit();
+            ResumeLayout(false);
         }
 
         private System.Windows.Forms.PictureBox picReaperPVE;
@@ -1429,7 +1648,7 @@
 
         private System.Windows.Forms.ComboBox cmbSagePVE;
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picViperPVE;
 
         #endregion
 
@@ -1527,6 +1746,12 @@
         private System.Windows.Forms.PictureBox picDancerPVP;
         private System.Windows.Forms.CheckBox chkEnableInPvp;
         private System.Windows.Forms.CheckBox chkEnableInPVE;
-
+        private System.Windows.Forms.ComboBox cmbViperPVE;
+        private System.Windows.Forms.ComboBox cmbPictomancerPVE;
+        private System.Windows.Forms.PictureBox picPictomancerPVE;
+        private System.Windows.Forms.ComboBox cmbPictomancerPVP;
+        private System.Windows.Forms.PictureBox picPictomancerPVP;
+        private System.Windows.Forms.PictureBox picViperPVP;
+        private System.Windows.Forms.ComboBox cmbViperPVP;
     }
 }

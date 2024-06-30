@@ -453,6 +453,46 @@
                             return Pvp.SageRoutine;
                     }
                     break;
+
+                case ClassJobType.Viper:
+                    if (WorldManager.InPvP)
+                    {
+                        if (AutoSelectPvp)
+                            return Pvp.ViperRoutine;
+
+                        if (AutoSelectPve)
+                            return Pve.ViperRoutine;
+                    }
+                    else
+                    {
+                        if (AutoSelectPve)
+                            return Pve.ViperRoutine;
+
+                        if (AutoSelectPvp)
+                            return Pvp.ViperRoutine;
+                    }
+                    break;
+
+                case ClassJobType.Pictomancer:
+                    if (WorldManager.InPvP)
+                    {
+                        if (AutoSelectPvp)
+                            return Pvp.PictomancerRoutine;
+
+                        if (AutoSelectPve)
+                            return Pve.PictomancerRoutine;
+                    }
+                    else
+                    {
+                        if (AutoSelectPve)
+                            return Pve.PictomancerRoutine;
+
+                        if (AutoSelectPvp)
+                            return Pvp.PictomancerRoutine;
+                    }
+                    break;
+
+
                 default:
                     return "";
             }
