@@ -92,6 +92,14 @@ namespace CarbuncleTech.Plugins.SeleCR.Models
         [DefaultValue("")]
         public string SageRoutine { get; set; }
 
+        [Setting]
+        [DefaultValue("")]
+        public string ViperRoutine { get; set; }
+
+        [Setting]
+        [DefaultValue("")]
+        public string PictomancerRoutine { get; set; }
+
         public Scenario()
 		{
 
