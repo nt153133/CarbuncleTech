@@ -108,6 +108,20 @@ namespace CarbuncleTech.Plugins.SeleCR
             cmbViperPVP.Items.AddRange(routines);
             cmbPictomancerPVE.Items.AddRange(routines);
             cmbPictomancerPVP.Items.AddRange(routines);
+
+
+	    #if RB_CN
+            picViperPVE.Visible = false;
+            picViperPVP.Visible = false;
+            picPictomancerPVE.Visible = false;
+            picPictomancerPVP.Visible = false;
+
+
+	    cmbViperPVE.Visible = false;
+	    cmbViperPVP.Visible = false;
+	    cmbPictomancerPVE.Visible = false;
+	    cmbPictomancerPVP.Visible = false;
+	    #endif
         }
 
         private string GetImageLocation(string fileName)

@@ -454,6 +454,7 @@
                     }
                     break;
 
+		#if !RB_CN
                 case ClassJobType.Viper:
                     if (WorldManager.InPvP)
                     {
@@ -491,7 +492,7 @@
                             return Pvp.PictomancerRoutine;
                     }
                     break;
-
+		#endif
 
                 default:
                     return "";
