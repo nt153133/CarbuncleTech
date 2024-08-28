@@ -110,7 +110,7 @@ namespace CarbuncleTech.Plugins.SeleCR
             cmbPictomancerPVP.Items.AddRange(routines);
 
 
-	    #if RB_CN
+	    #if !RB_DT
             picViperPVE.Visible = false;
             picViperPVP.Visible = false;
             picPictomancerPVE.Visible = false;
