@@ -454,7 +454,7 @@
                     }
                     break;
 
-		#if !RB_CN
+		#if RB_DT
                 case ClassJobType.Viper:
                     if (WorldManager.InPvP)
                     {
