@@ -454,7 +454,6 @@
                     }
                     break;
 
-		#if RB_DT
                 case ClassJobType.Viper:
                     if (WorldManager.InPvP)
                     {
@@ -492,7 +491,11 @@
                             return Pvp.PictomancerRoutine;
                     }
                     break;
-		#endif
+
+        #if !RB_TC
+                case ClassJobType.BeastMaster:
+                    return Pve.BeastmasterRoutine;
+        #endif
 
                 default:
                     return "";

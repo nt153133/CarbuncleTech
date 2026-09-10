@@ -100,6 +100,10 @@ namespace CarbuncleTech.Plugins.SeleCR.Models
         [DefaultValue("")]
         public string PictomancerRoutine { get; set; }
 
+        [Setting]
+        [DefaultValue("")]
+        public string BeastmasterRoutine { get; set; }
+
         public Scenario()
 		{
 
